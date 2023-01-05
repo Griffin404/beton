@@ -1,0 +1,139 @@
+.beton-benches-main_h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.main_small {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+.beton-benches-text {
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 880px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  padding: 10;
+}
+.beton-benches-group {
+}
+
+.beton-benches-body {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+  flex-direction: row-reverse;
+}
+.beton-benches-main-image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 90px;
+}
+.beton-benches-main-image {
+  width: 1000px;
+  height: 430px;
+  background-color: red;
+}
+
+.beton-benches-image {
+  width: 800px;
+  height: 600px;
+}
+
+.beton-benches-image-wrapper-row {
+  display: flex;
+  flex-direction: row;
+}
+.beton-benches-image-wrapper-column {
+  display: flex;
+  flex-direction: column;
+}
+.beton-benches-image-row {
+  width: 380px;
+  height: 600px;
+  margin-left: 40px;
+  display: flex;
+}
+.beton-benches-image-column {
+  width: 380px;
+  height: 280px;
+  display: flex;
+
+  margin-bottom: 40px;
+}
+.beton-benches-fit-cover {
+  width: 100%;
+  object-fit: cover;
+}
+.beton-benches-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-bottom: 40px;
+  max-width: 600px;
+}
+.beton-benches-name {
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+.beton-benches-name-header {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.beton-benches-text {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.beton-benches-section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.beton-benches-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+.beton-benches {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 45px;
+}
+
+.beton-benches a {
+  border-bottom: 3px solid black;
+  padding-bottom: 4px;
+}
+
+.beton-benches img {
+  position: absolute;
+  cursor: pointer;
+  margin: -5px 0px 0px 0px;
+}
+
+.beton-benches a {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 35px;
+}
+
+.beton-benches-about {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.beton-benches-about-text {
+  margin-bottom: 26px;
+  line-height: 30px;
+  text-align: left;
+}

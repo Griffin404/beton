@@ -1,0 +1,64 @@
+.beton-features-main_h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.beton-features-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+.main_small {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+.beton-features-text {
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 780px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  padding: 10;
+}
+.beton-features-body {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+  flex-direction: row-reverse;
+}
+.beton-features-image {
+  width: 700px;
+  height: 500px;
+  margin-right: 80px;
+}
+.beton-features-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-bottom: 40px;
+  max-width: 550px;
+}
+.beton-features-name {
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+.beton-features-name-header {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.beton-features-text {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.beton-features-fit-cover {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}

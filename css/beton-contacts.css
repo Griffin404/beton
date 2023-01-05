@@ -1,0 +1,144 @@
+.contacts-map-body {
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
+
+.contact-features-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: left;
+  width: 284px;
+  height: 60px;
+  border-width: 0px;
+}
+
+.contacts-map-header {
+  display: flex !important;
+  flex-direction: row-reverse;
+}
+
+.contacts-map-map {
+  display: flex;
+  max-width: 1500px;
+  height: 600px;
+  flex-direction: row-reverse;
+}
+
+.section-w-cart__adress-info-header {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.section-w-cart__adress-info-box span {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.section-w-cart__adress-info-box a img {
+  width: 25px;
+  height: 25px;
+}
+
+.adress-socials {
+  display: flex;
+  width: 200px;
+  height: 25px;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.dillers-info-body {
+  display: flex;
+  max-width: 1300px;
+  justify-content: space-between;
+}
+
+.contact-page-dillers {
+  margin: 80px 0 200px 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.dillers-info-item img {
+  width: 200px;
+  height: 46px;
+}
+
+.contact-page-location-map {
+  max-width: 1500px;
+  height: 600px;
+}
+
+.contact-page-location-text {
+  margin: 90px 0 40px 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.contact-page-location {
+  margin-bottom: 200px;
+}
+
+.contact-page-benefits {
+  display: flex;
+  justify-content: space-between;
+  margin: 90px 0 200px 0;
+}
+
+.contact-page-benefits-item {
+  display: flex;
+  line-height: 30px;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.contact-page-benefits-text {
+  margin-left: 25px;
+}
+
+.criteria-item-header {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.criteria-item-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 300px;
+}
+
+.criteria-item-text-last {
+  margin-bottom: 70px;
+}
+
+.criteria-item-number {
+  font-size: 60px;
+  font-weight: 700;
+  color: #00eed6;
+  display: flex;
+  justify-content: end;
+}
+
+.contact-page-criteria-item {
+  background-color: #f9fafa;
+  width: 480px;
+  max-height: 340px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  justify-content: space-between;
+}
+
+.contact-page-criteria {
+  margin: 90px 0 190px 0;
+  display: flex;
+  justify-content: space-between;
+}

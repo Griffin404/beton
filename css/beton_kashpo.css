@@ -1,0 +1,156 @@
+.beton-kashpo-main_h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.main_small {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+.beton-kashpo-text {
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 880px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  padding: 10;
+}
+.beton-kashpo-group {
+}
+
+.beton-kashpo-body {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+  flex-direction: row-reverse;
+}
+.beton-kashpo-palete {
+  margin-bottom: 90px;
+  margin-top: 90px;
+}
+.beton-kashpo-palete__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -2rem;
+  justify-content: center;
+}
+.beton-kashpo-palete__wrapper-item {
+  width: 180px;
+  height: 180px;
+  margin: 2rem;
+  padding: 20px 20px 20px 20px;
+  border: 1px solid #e8e8e8;
+}
+.beton-kashpo-palete__wrapper-item-image {
+  aspect-ratio: 25 / 18;
+  margin-bottom: 1.7rem;
+}
+.beton-kashpo-palete__wrapper-item-name {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.beton-kashpo-palete__wrapper-item.texture {
+  width: calc(100% / 4 - 4rem);
+}
+
+.beton-kashpo-image {
+  width: 800px;
+  height: 600px;
+}
+
+.beton-kashpo-image-wrapper-row {
+  display: flex;
+  flex-direction: row;
+}
+.beton-kashpo-image-wrapper-column {
+  display: flex;
+  flex-direction: column;
+}
+.beton-kashpo-image-row {
+  width: 380px;
+  height: 600px;
+  margin-left: 40px;
+  display: flex;
+}
+.beton-kashpo-image-column {
+  width: 380px;
+  height: 280px;
+  display: flex;
+
+  margin-bottom: 40px;
+}
+.beton-kashpo-fit-cover {
+  width: 100%;
+  object-fit: cover;
+}
+.beton-kashpo-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-bottom: 40px;
+  max-width: 600px;
+}
+.beton-kashpo-name {
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+.beton-kashpo-name-header {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.beton-kashpo-text {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.beton-kashpo-section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.beton-kashpo-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+.beton-kashpo {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 45px;
+}
+
+.beton-kashpo a {
+  border-bottom: 3px solid black;
+  padding-bottom: 4px;
+}
+
+.beton-kashpo img {
+  position: absolute;
+  cursor: pointer;
+  margin: -5px 0px 0px 0px;
+}
+
+.beton-kashpo a {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 35px;
+}
+
+.beton-kashpo-about {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.beton-kashpo-about-text {
+  margin-bottom: 26px;
+  line-height: 30px;
+  text-align: left;
+}

@@ -1,0 +1,127 @@
+.beton-business-term {
+  margin-top: 200px;
+}
+
+.beton-business-term-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.beton-business-term-text-big {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.beton-business-term-text {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.beton-business-term-body {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.beton-business-term-body-in {
+  width: 1260px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.term-item-body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 44px;
+}
+
+.term-item-header {
+  padding: 18px 0px;
+  text-align: center;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+  margin-bottom: 40px;
+}
+
+.term-item-header-number {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.term-item-header-text {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.term-item-body-li {
+  background-color: #f9fafa;
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  width: fit-content;
+  height: 60px;
+  margin: 0 0 20px 30px;
+  text-align: center;
+  padding: 22px 25px;
+}
+
+.term-item-body-li span {
+  font-size: 21px;
+  font-weight: 500;
+  margin: -2px 5px 0 0;
+}
+
+.term-item-group {
+  display: flex;
+}
+
+.beton-business-regions-body {
+  margin: 90px 0 200px 0;
+}
+
+.beton-business-regions-text {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.beton-business-regions-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.regions-item-header {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.regions-item {
+  height: 360px;
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 50px;
+  background-color: #f9fafa;
+}
+
+.regions-item-li-city {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.regions-item-li-time {
+  color: #cacaca;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.regions-item-li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}

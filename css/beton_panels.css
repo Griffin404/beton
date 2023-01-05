@@ -1,0 +1,123 @@
+.beton-panels-main_h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.main_small {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+.beton-panels-text {
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 880px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  padding: 10;
+}
+.beton-panels-body {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+  flex-direction: row-reverse;
+}
+.beton-panels-image {
+  width: 800px;
+  height: 600px;
+}
+
+.beton-panels-image-wrapper-row {
+  display: flex;
+  flex-direction: row;
+}
+.beton-panels-image-wrapper-column {
+  display: flex;
+  flex-direction: column;
+}
+.beton-panels-image-row {
+  width: 380px;
+  height: 600px;
+  margin-left: 40px;
+  display: flex;
+}
+.beton-panels-image-column {
+  width: 380px;
+  height: 280px;
+  display: flex;
+
+  margin-bottom: 40px;
+}
+.beton-panels-fit-cover {
+  width: 100%;
+  object-fit: cover;
+}
+.beton-panels-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-bottom: 40px;
+  max-width: 600px;
+}
+.beton-panels-name {
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+.beton-panels-name-header {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.beton-panels-text {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.beton-panel-section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.beton-panels-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+.beton-panel {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 45px;
+}
+
+.beton-panel a {
+  border-bottom: 3px solid black;
+  padding-bottom: 4px;
+}
+
+.beton-panel img {
+  position: absolute;
+  cursor: pointer;
+  margin: -5px 0px 0px 0px;
+}
+
+.beton-panel a {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 35px;
+}
+
+.beton-panel-about {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.beton-panel-about-text {
+  margin-bottom: 26px;
+  line-height: 30px;
+  text-align: left;
+}
