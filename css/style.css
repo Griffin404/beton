@@ -482,10 +482,11 @@ img[data-lazysrc].load {
 .button--black {
   background: #000;
   color: #fff;
+  border: none;
 }
 .button--black:hover {
-  color: #000;
-  background: #fff;
+  color: #fff;
+  background: #f35877;
 }
 
 .accordion__wrapper {
@@ -5579,4 +5580,114 @@ html {
   color: #cacaca;
   font-size: 21px;
   font-weight: 400;
+}
+
+.color-palete__wrapper-item-text {
+  font-size: 26px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 26px;
+}
+
+.color-palete-in {
+  display: flex;
+  /* position: absolute; */
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  flex-direction: inherit;
+  padding: 160px 70px;
+}
+
+.cover-panel {
+  opacity: 1;
+  background-image: url("../img/branches/panel.svg");
+  height: 450px;
+  object-fit: cover;
+  object-position: center;
+}
+.cover-kashpo {
+  background-image: url("../img/branches/kashpo.svg");
+  height: 450px;
+  object-fit: cover;
+  object-position: center;
+}
+.cover-bench {
+  background-image: url("../img/branches/bench.svg");
+  height: 450px;
+  object-fit: cover;
+  object-position: center;
+}
+.cover-plates {
+  background-image: url("../img/branches/plates.svg");
+  height: 450px;
+  object-fit: cover;
+  object-position: center;
+}
+.cover-sculptures {
+  background-image: url("../img/branches/sculptures.svg");
+  height: 450px;
+  object-fit: cover;
+  object-position: center;
+}
+.cover-bollardes {
+  background-image: url("../img/branches/bollardes.svg");
+  height: 450px;
+  object-fit: cover;
+  object-position: center;
+}
+.cover-lamps {
+  background-image: url("../img/branches/lamps.svg");
+  height: 450px;
+  object-fit: cover;
+  object-position: center;
+}
+.cover-bonfire {
+  background-image: url("../img/branches/bonfire.svg");
+  height: 450px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.color-palete__wrapper-item-image-icon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cover-panel:hover {
+  opacity: 0.85;
+}
+
+.display-none {
+  display: none;
+}
+.display-block {
+  display: block !important;
+}
+.palete-button {
+  display: none;
+  margin: 30px 0 0 0px;
+}
+
+@media screen and (max-width: 1400px) {
+  .palete-button {
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .color-palete__wrapper-item {
+    height: 200px;
+  }
+  .color-palete-in {
+    padding: 50px 70px;
+  }
+  .color-palete__wrapper-item-image-icon img {
+    max-height: 45px;
+  }
+  .color-palete__wrapper-item-text {
+    font-size: 16px;
+    font-weight: 600;
+  }
 }

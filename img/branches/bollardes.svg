@@ -11,12 +11,4 @@
     <rect id="Изображение_183" data-name="Изображение 183" width="640" height="450" transform="translate(800 1264)" fill="url(#pattern)"/>
   </g>
   <rect id="Прямоугольник_440" data-name="Прямоугольник 440" width="345" height="450" opacity="0.5"/>
-  <g id="Сгруппировать_326" data-name="Сгруппировать 326" transform="translate(-401 -1336.698)">
-    <text id="болларды" transform="translate(574 1615)" fill="#fff" font-size="26" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-65.133" y="0">болларды</tspan></text>
-    <g id="Сгруппировать_336" data-name="Сгруппировать 336" transform="translate(-218.6 -1499.802)">
-      <path id="Контур_13" data-name="Контур 13" d="M6756.175,3070.66,6741.6,3065l13.127-63.983,12.611-.517,17.262,66.361Z" transform="translate(-5970)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-      <line id="Линия_4" data-name="Линия 4" y1="69.772" x2="10.853" transform="translate(786.252 3000.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
-      <line id="Линия_5" data-name="Линия 5" x2="1.55" y2="68.997" transform="translate(784.702 3001.275)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
-    </g>
-  </g>
 </svg>
