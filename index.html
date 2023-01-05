@@ -1599,7 +1599,12 @@
           function forcedOriginalScale(containerId) {
             var App = document.getElementById(containerId);
             console.log($(window).width());
-            if ($(window).width() > 700) App.style.zoom = 1 / devicePixelRatio;
+            console.log(devicePixelRatio);
+            if ($(window).width() > 700 && $(window).width() < 1600) {
+              App.style.zoom = 1 / devicePixelRatio;
+            } else if ($(window).width() > 1600)
+              App.style.zoom =
+                1 / (devicePixelRatio > 1.4 ? 1 : devicePixelRatio);
           }
           document.addEventListener(
             "DOMContentLoaded",

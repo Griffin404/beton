@@ -4756,6 +4756,7 @@ textarea.black::placeholder {
 }
 .business-mobile-red {
   background-color: #f35877;
+  color: #fff;
 }
 @media screen and (max-width: 1100px) {
   .project-body {
@@ -4883,6 +4884,7 @@ textarea.black::placeholder {
   .projects-image-section-numbers-projects {
     height: 60px !important;
     margin-top: 260px !important;
+    width: 102vw !important;
   }
   .projects-slider__mian-slider-mobile .slick-arrow.next {
     bottom: 0 !important;
@@ -4893,9 +4895,7 @@ textarea.black::placeholder {
     left: -40% !important;
     margin-left: 50% !important;
   }
-  .projects-image-section-numbers-projects {
-    width: 102vw !important;
-  }
+
   .header__menu {
     padding-top: 30px;
   }
@@ -4917,7 +4917,7 @@ textarea.black::placeholder {
   }
   .image-section-rectangle {
     margin: 300px 0px 0 0;
-    width: 400px;
+    width: 425px;
     height: 60px;
     font-size: 21px;
     font-weight: 500;
@@ -5256,8 +5256,20 @@ textarea.black::placeholder {
   right: 0;
   justify-content: center;
 }
+.projects-image-section-numbers-projects-l {
+  color: #fff;
+  align-items: center;
+  background-color: #000;
+  display: flex;
+  padding: 0px 16px;
+  height: 600px;
+  width: 120px;
+  position: absolute;
+  right: 0;
+  justify-content: center;
+}
 
-.projects-image-section-numbers-projects-reverse {
+.projects-image-section-numbers-projects-l-reverse {
   margin-left: 0px;
   left: 0;
   padding: 0px 26px;
@@ -5506,12 +5518,15 @@ html {
 }
 .projects .main-link img {
   width: 118px;
-  margin: -7px -28px 0px 0px;
+  margin: -8.2px -28px 0px 0px;
 }
 .projects .main-link a {
   width: 116px;
   border-bottom: 3px solid black;
   margin: -1px 0px 0px 0px;
+}
+.main-link a {
+  border-bottom: 3px solid black;
 }
 
 @media screen and (max-width: 1300px) {
@@ -5543,6 +5558,7 @@ html {
     width: 100%;
     justify-content: center;
   }
+
   .projects-slider__mian-slider-mobile .slick-arrow.next {
     right: 20%;
     bottom: 40px;
@@ -5689,5 +5705,8 @@ html {
   .color-palete__wrapper-item-text {
     font-size: 16px;
     font-weight: 600;
+  }
+  .palete-button {
+    display: none !important;
   }
 }
