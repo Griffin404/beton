@@ -6,7 +6,7 @@
     <meta
       name="viewport"
       id="viewport"
-      content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no"
+      content="width=device-width, height=device-height, initial-scale=1, user-scalable=no"
     />
     <title>Document</title>
     <link rel="stylesheet" href="./css/slick.css" />
@@ -1600,11 +1600,15 @@
             var App = document.getElementById(containerId);
             console.log($(window).width());
             console.log(devicePixelRatio);
-            if ($(window).width() > 700 && $(window).width() < 1600) {
+            if ($(window).width() > 700 && $(window).width() < 1300) {
               App.style.zoom = 1 / devicePixelRatio;
-            } else if ($(window).width() > 1600)
+            } else if ($(window).width() > 1300 && $(window).width() < 1600) {
               App.style.zoom =
-                1 / (devicePixelRatio > 1.4 ? 1 : devicePixelRatio);
+                1 / (devicePixelRatio > 1.4 ? 1.24 : devicePixelRatio);
+            } else if ($(window).width() > 1600) {
+              App.style.zoom =
+                1 / (devicePixelRatio > 1.4 ? 1.1 : devicePixelRatio);
+            }
           }
           document.addEventListener(
             "DOMContentLoaded",
