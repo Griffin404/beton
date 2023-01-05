@@ -737,7 +737,7 @@ textarea.black::placeholder {
 .upload-file img {
   margin-right: 2rem;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .instagram {
     margin-top: 40px !important;
   }
@@ -3890,7 +3890,7 @@ textarea.black::placeholder {
     margin-bottom: -14rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .error-page__image {
     transform: translate(0, -10rem);
     margin-bottom: -10rem;
@@ -4873,7 +4873,7 @@ textarea.black::placeholder {
   display: none;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .projects .main-link {
     margin-top: -37px !important;
   }
@@ -5676,7 +5676,7 @@ html {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .color-palete__wrapper-item {
     height: 200px;
   }
