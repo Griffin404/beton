@@ -3410,7 +3410,7 @@ textarea.black::placeholder {
 }
 @media screen and (max-width: 1400px) {
   .color-palete__wrapper-item {
-    width: calc(100% / 5 - 4rem);
+    width: calc(100% / 4 - 4rem);
   }
 }
 @media screen and (max-width: 1024px) {
