@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <rect id="Прямоугольник_635" data-name="Прямоугольник 635" width="100" height="100" fill="#00eed6"/>
+  <g id="Сгруппировать_325" data-name="Сгруппировать 325" transform="translate(-1615 -4454)">
+    <g id="Прямоугольник_312" data-name="Прямоугольник 312" transform="translate(1641 4495)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+      <rect width="37.049" height="27.444" rx="5" stroke="none"/>
+      <rect x="2" y="2" width="33.049" height="23.444" rx="3" fill="none"/>
+    </g>
+    <g id="Эллипс_55" data-name="Эллипс 55" transform="translate(1653 4502.999)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3">
+      <circle cx="6.175" cy="6.175" r="6.175" stroke="none"/>
+      <circle cx="6.175" cy="6.175" r="4.675" fill="none"/>
+    </g>
+    <line id="Линия_80" data-name="Линия 80" x2="37.049" transform="translate(1640.744 4487.117)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    <path id="Многоугольник_5" data-name="Многоугольник 5" d="M3.259,1.429a1,1,0,0,1,1.715,0l2.35,3.917a1,1,0,0,1-.857,1.514h-4.7A1,1,0,0,1,.909,5.346Z" transform="translate(1638 4491.233) rotate(-90)" fill="#fff"/>
+    <path id="Многоугольник_6" data-name="Многоугольник 6" d="M3.259,1.429a1,1,0,0,1,1.715,0l2.35,3.917a1,1,0,0,1-.857,1.514h-4.7A1,1,0,0,1,.909,5.346Z" transform="translate(1680.538 4483) rotate(90)" fill="#fff"/>
+    <g id="Сгруппировать_325-2" data-name="Сгруппировать 325" transform="translate(1692.201 4493.634) rotate(90)">
+      <line id="Линия_81" data-name="Линия 81" x2="25.385" transform="translate(2.744 4.117)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <path id="Многоугольник_7" data-name="Многоугольник 7" d="M3.259,1.429a1,1,0,0,1,1.715,0l2.35,3.917a1,1,0,0,1-.857,1.514h-4.7A1,1,0,0,1,.909,5.346Z" transform="translate(0 8.233) rotate(-90)" fill="#fff"/>
+      <path id="Многоугольник_8" data-name="Многоугольник 8" d="M3.259,1.429a1,1,0,0,1,1.715,0l2.35,3.917a1,1,0,0,1-.857,1.514h-4.7A1,1,0,0,1,.909,5.346Z" transform="translate(30.874 0) rotate(90)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
