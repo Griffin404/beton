@@ -2390,6 +2390,9 @@ textarea.black::placeholder {
   /* padding-right: 10rem; */
   margin-top: 90px;
 }
+.main-slider-second-item {
+  padding-top: 12px;
+}
 @media screen and (max-width: 1024px) {
   .projects-slider {
     width: 100%;
@@ -5520,7 +5523,7 @@ html {
   margin: -8.2px -28px 3px 0px;
 }
 .projects .main-link a {
-  width: 107px;
+  width: 120px;
   border-bottom: 3px solid black;
   margin: -1px 0px 0px 0px;
   padding-bottom: 5px;
@@ -5848,6 +5851,9 @@ html {
   }
   .header_top_call_tel {
     margin-top: 10vh;
+  }
+  .projects .main-link a {
+    width: 107px;
   }
 }
 .down-olb {
