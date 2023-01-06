@@ -2098,7 +2098,9 @@
             </div>
           </div>
         </div>
-
+        <div class="preloader">
+          <img src="img/main/preloader.svg" />
+        </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
         <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
@@ -2130,9 +2132,14 @@
             } else if ($(window).width() > 1300 && $(window).width() < 1600) {
               App.style.zoom =
                 1 / (devicePixelRatio > 1.4 ? 1.24 : devicePixelRatio);
-            } else if ($(window).width() > 1600) {
+            } else if ($(window).width() > 1600 && $(window).width() < 2100) {
               App.style.zoom =
                 1 / (devicePixelRatio > 1.4 ? 1.1 : devicePixelRatio);
+            } else if ($(window).width() > 2100 && devicePixelRatio > 1.4) {
+              App.style.zoom =
+                1 / (devicePixelRatio > 1.4 ? 0.6 : devicePixelRatio);
+            } else if ($(window).width() > 2100 && devicePixelRatio < 1.4) {
+              App.style.zoom = 1 / 0.5;
             }
           }
           document.addEventListener(

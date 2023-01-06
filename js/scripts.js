@@ -42,6 +42,10 @@ function checkInnerWidth(width) {
   }
 }
 
+$(window).on('load', (function () {
+  $('.preloader').fadeOut('slow');
+}))
+
 window.onload = function () {
   function setTransformScale(removeCss) {
     if (checkInnerWidth(1024) || !checkInnerWidth(1600) || removeCss) {
