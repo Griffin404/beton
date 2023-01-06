@@ -476,7 +476,7 @@ img[data-lazysrc].load {
   background: none;
 }
 .button--white:hover {
-  color: #f05212;
+  color: #f35877;
   background: #fff;
 }
 .button--black {
@@ -664,7 +664,7 @@ textarea.black::placeholder {
 
 .custom-scroll:not(.custom-js-scroll) {
   scrollbar-width: thin;
-  scrollbar-color: #f05212 #f8f8f8;
+  scrollbar-color: #f35877 #f8f8f8;
   -ms-overflow-style: -ms-autohiding-scrollbar;
   overflow: auto;
 }
@@ -675,13 +675,13 @@ textarea.black::placeholder {
 }
 .custom-scroll:not(.custom-js-scroll)::-webkit-scrollbar-thumb {
   border-radius: 3px;
-  background-color: #f05212;
+  background-color: #f35877;
 }
 
 @media screen and (min-width: 1024px) {
   .custom-scroll.custom-js-scroll {
     scrollbar-width: thin;
-    scrollbar-color: #f05212 #f8f8f8;
+    scrollbar-color: #f35877 #f8f8f8;
     -ms-overflow-style: -ms-autohiding-scrollbar;
     overflow: auto;
   }
@@ -692,7 +692,7 @@ textarea.black::placeholder {
   }
   .custom-scroll.custom-js-scroll::-webkit-scrollbar-thumb {
     border-radius: 3px;
-    background-color: #f05212;
+    background-color: #f35877;
   }
 }
 
@@ -711,7 +711,7 @@ textarea.black::placeholder {
 }
 
 .custom-js-scroll .mCSB_dragger_bar {
-  background: #f05212 !important;
+  background: #f35877 !important;
   height: 10px !important;
   margin: 0 !important;
 }
@@ -936,7 +936,6 @@ textarea.black::placeholder {
 @media screen and (max-width: 1078px) {
   .header__menu-mobile {
     display: flex;
-    margin-top: 80px;
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
@@ -978,13 +977,13 @@ textarea.black::placeholder {
   }
 }
 .header__menu-item:hover .header__menu-item-link {
-  color: #f05212;
+  color: #f35877;
 }
 .header__menu-item.active {
   display: block !important;
 }
 .header__menu-item.active .header__menu-item-link {
-  color: #f05212;
+  color: #f35877;
 }
 @media screen and (max-width: 1078px) {
   .header__menu-item.active .header__menu-item-link::after {
@@ -1042,7 +1041,7 @@ textarea.black::placeholder {
   }
 }
 .header__menu .dropdown-menu-link:hover {
-  color: #f05212;
+  color: #f35877;
 }
 .header__menu .mobile-content {
   display: none;
@@ -1093,7 +1092,7 @@ textarea.black::placeholder {
 .header__contacts-additional-btn {
   width: 5rem;
   height: 5rem;
-  background: #f05212;
+  background: #f35877;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1159,7 +1158,7 @@ textarea.black::placeholder {
   transition: 0.2s;
 }
 .header__contacts-additional-info a:hover {
-  color: #f05212;
+  color: #f35877;
 }
 .header__contacts-additional-info .phones {
   margin-bottom: 4rem;
@@ -1330,7 +1329,7 @@ textarea.black::placeholder {
   transition: 0.2s;
 }
 .footer__top-menu a:hover {
-  color: #f05212;
+  color: #f35877;
 }
 .footer__main-section {
   display: flex;
@@ -1408,7 +1407,7 @@ textarea.black::placeholder {
   transition: 0.2s;
 }
 .footer__catalog-menu a:hover {
-  color: #f05212;
+  color: #f35877;
 }
 @media screen and (max-width: 780px) {
   .footer__catalog-menu a {
@@ -1435,7 +1434,7 @@ textarea.black::placeholder {
   transition: 0.2s;
 }
 .footer-contacts a:hover {
-  color: #f05212;
+  color: #f35877;
 }
 .footer-phones a {
   display: block;
@@ -1445,7 +1444,7 @@ textarea.black::placeholder {
   transition: 0.2s;
 }
 .footer-phones a:hover {
-  color: #f05212;
+  color: #f35877;
 }
 @media screen and (max-width: 780px) {
   .footer-phones a {
@@ -1847,7 +1846,7 @@ textarea.black::placeholder {
 }
 @media screen and (min-width: 1024px) {
   .main-categories__item:hover {
-    background: #f05212;
+    background: #f35877;
   }
   .main-categories__item:hover .main-categories__item-image .base-img {
     opacity: 0;
@@ -2263,7 +2262,7 @@ textarea.black::placeholder {
 }
 .catalog-product__markers .marker--discount {
   font-weight: 700;
-  background: #f05212;
+  background: #f35877;
   width: 6rem;
   height: 6rem;
   border-radius: 50%;
@@ -2319,7 +2318,7 @@ textarea.black::placeholder {
   }
 }
 .catalog-product__price .current-price--w-discount {
-  color: #f05212;
+  color: #f35877;
 }
 .catalog-product__price .old-price {
   font-size: 1.8rem;
@@ -2775,7 +2774,7 @@ textarea.black::placeholder {
   position: relative;
 }
 .colors__wrapper-color.active {
-  border-color: #f05212;
+  border-color: #f35877;
 }
 .colors__wrapper-color img {
   object-fit: cover;
@@ -2851,7 +2850,7 @@ textarea.black::placeholder {
   }
 }
 .textures__wrapper-texture.active {
-  border-color: #f05212;
+  border-color: #f35877;
 }
 .textures__wrapper-texture .texture-image {
   width: 5rem;
@@ -2925,7 +2924,7 @@ textarea.black::placeholder {
 .product-description__decor {
   text-align: right;
   font-size: 11rem;
-  color: #f05212;
+  color: #f35877;
   font-family: "Dela Gothic One";
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
@@ -3049,7 +3048,7 @@ textarea.black::placeholder {
 }
 .care-page__description-decor {
   transform: translate(0, -8rem);
-  color: #f05212;
+  color: #f35877;
   font-size: 8rem;
   font-family: "Dela Gothic One";
   -webkit-text-fill-color: transparent;
@@ -3133,7 +3132,7 @@ textarea.black::placeholder {
 }
 .care-page__list-item-description .number {
   font-family: "Dela Gothic One";
-  color: #f05212;
+  color: #f35877;
   font-size: 6rem;
   margin-right: 10rem;
   flex-shrink: 0;
@@ -3321,7 +3320,7 @@ textarea.black::placeholder {
   width: 100%;
   margin-bottom: 3rem;
   display: flex;
-  color: #f05212;
+  color: #f35877;
   font-size: 8rem;
   font-family: "Dela Gothic One";
   -webkit-text-fill-color: transparent;
@@ -3575,7 +3574,7 @@ textarea.black::placeholder {
   content: "";
   display: block;
   height: 2px;
-  background: #f05212;
+  background: #f35877;
   position: absolute;
   top: calc(100% + 2px);
   transition: 0.2s;
@@ -3584,7 +3583,7 @@ textarea.black::placeholder {
   transform: translateX(-50%);
 }
 .section-w-cart__adress-info-box.scheme a:hover {
-  color: #f05212;
+  color: #f35877;
 }
 .section-w-cart__adress-info-box.scheme a:hover::after {
   width: 101%;
@@ -3983,7 +3982,7 @@ textarea.black::placeholder {
 }
 .advantages__item .number {
   font-size: 8rem;
-  color: #f05212;
+  color: #f35877;
   font-family: "Dela Gothic One";
   font-weight: 100;
   margin-bottom: 3rem;
@@ -4080,7 +4079,7 @@ textarea.black::placeholder {
   content: "";
   display: block;
   height: 2px;
-  background: #f05212;
+  background: #f35877;
   position: absolute;
   top: calc(100% + 2px);
   transition: 0.2s;
@@ -4090,7 +4089,7 @@ textarea.black::placeholder {
   z-index: 5;
 }
 .tips__row-text-link:hover {
-  color: #f05212;
+  color: #f35877;
 }
 .tips__row-text-link:hover::after {
   width: 100%;
@@ -4196,7 +4195,7 @@ textarea.black::placeholder {
   content: "";
   display: block;
   height: 2px;
-  background: #f05212;
+  background: #f35877;
   position: absolute;
   top: calc(100% + 2px);
   transition: 0.2s;
@@ -4205,13 +4204,13 @@ textarea.black::placeholder {
   transform: translateX(-50%);
 }
 .instagram-section__top-label a:hover {
-  color: #f05212;
+  color: #f35877;
 }
 .instagram-section__top-label a:hover::after {
   width: 101%;
 }
 .instagram-section__top-link {
-  color: #f05212;
+  color: #f35877;
   font-size: 5rem;
   margin-top: 2.4rem;
   font-family: "Dela Gothic One";
@@ -4315,7 +4314,7 @@ textarea.black::placeholder {
 }
 
 .header_top_call_tel span {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .header_top_call_tel a {
@@ -5702,6 +5701,7 @@ html {
   }
   .color-palete__wrapper-item {
     height: 200px;
+    background-size: 200px 250px;
   }
   .color-palete-in {
     padding: 50px 70px;
@@ -5757,6 +5757,10 @@ html {
   .fix-margin-mobile-10 {
     margin-bottom: 10px !important;
   }
+  .fix-margin-mobile-10 {
+    margin-left: 10px !important;
+  }
+
   .projects {
     margin-top: 90px;
   }
@@ -5824,4 +5828,28 @@ html {
   .footer-body-socials-body a {
     margin: 0 12px;
   }
+
+  .color-palete {
+    width: 104%;
+  }
+
+  .beton-products-image {
+    width: 100%;
+  }
+
+  .header_top_contact-mobile span {
+    margin-bottom: 10px;
+  }
+  .header_top_contact-mobile a {
+    font-weight: 500;
+  }
+  .header_top_contact-mobile {
+    margin-bottom: 55px;
+  }
+  .header_top_call_tel {
+    margin-top: 10vh;
+  }
+}
+.down-olb {
+  opacity: 0.1 !important;
 }
