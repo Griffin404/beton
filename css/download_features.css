@@ -97,3 +97,19 @@
   text-align: left;
   color: #cacaca;
 }
+
+@media screen and (max-width: 1300px) {
+  .download-features-button {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .download-features-pdf-button {
+    width: calc(100% / 2 - 2rem);
+  }
+  .download-features-pdf-button-title {
+    font-size: 17px;
+  }
+  .download-features-pdf-button-subtitle {
+    font-size: 14px;
+  }
+}

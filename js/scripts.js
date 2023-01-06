@@ -101,6 +101,7 @@ window.onload = function () {
   $(".header_top_burger").click(function () {
     $(this).toggleClass("active");
     $(".header__menu").fadeToggle("fast");
+    $(".header__menu").removeClass("header-sticky-content");
     $("body, html").toggleClass("noskroll");
   });
 

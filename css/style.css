@@ -884,6 +884,9 @@ textarea.black::placeholder {
   .header__wrapper {
     height: 50px;
   }
+  .header {
+    border-bottom: 1px solid #cacaca;
+  }
 }
 .header__menu {
   display: flex;
@@ -5284,6 +5287,7 @@ textarea.black::placeholder {
   width: 120px;
   position: absolute;
   right: 0;
+  z-index: 2;
   justify-content: center;
 }
 
@@ -5476,6 +5480,7 @@ textarea.black::placeholder {
 }
 
 .header-sticky-content {
+  border-bottom: 1px solid #cacaca;
   position: fixed;
   height: 100px;
   top: 0;
@@ -5499,6 +5504,12 @@ html {
 }
 
 @media screen and (max-width: 1100px) {
+  .history {
+    margin: 140px 0 20px 0;
+  }
+  .download-features-main_h1 {
+    font-size: 30px;
+  }
   .header_top_call {
     display: none;
   }
@@ -5513,6 +5524,7 @@ html {
   }
   .header_top_burger {
     display: block;
+    background: none;
   }
   .header {
     position: fixed;
@@ -5713,6 +5725,22 @@ html {
 }
 
 @media screen and (max-width: 450px) {
+  .download-features-pdf-wrapper {
+    margin-bottom: 50px;
+  }
+  .download-features-header {
+    margin-bottom: 40px;
+  }
+  .download-features-button {
+    font-size: 14px;
+  }
+  .download-features-buttons-wrapper {
+    margin-right: 30px;
+  }
+  .download-features-pdf-button {
+    width: calc(100% / 1 - 2rem);
+    margin-bottom: 40px;
+  }
   .header__logo img {
     width: 105px;
     height: 36px;
@@ -5873,6 +5901,12 @@ html {
   }
   .beton-products-image {
     width: 100%;
+  }
+  .project-body {
+    padding-right: 30px;
+    margin-right: 30px;
+  }
+  .projects-image-section-numbers-projects-l {
   }
 }
 .down-olb {
