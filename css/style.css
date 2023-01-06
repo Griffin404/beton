@@ -5524,7 +5524,7 @@ html {
 }
 .projects .main-link a {
   width: 120px;
-  border-bottom: 3px solid black;
+  border-bottom: 2px solid black;
   margin: -1px 0px 0px 0px;
   padding-bottom: 5px;
 }
@@ -5704,7 +5704,7 @@ html {
   }
   .color-palete__wrapper-item {
     height: 200px;
-    background-size: 200px 250px;
+    background-size: 210px 270px;
   }
   .color-palete-in {
     padding: 50px 70px;
@@ -5761,7 +5761,7 @@ html {
     margin-bottom: 10px !important;
   }
   .fix-margin-mobile-10 {
-    margin-left: 10px !important;
+    margin-left: 30px !important;
   }
 
   .projects {
@@ -5855,11 +5855,14 @@ html {
   .projects .main-link a {
     width: 107px;
   }
+  .beton-products-image {
+    width: 100%;
+  }
 }
 .down-olb {
   opacity: 0.1 !important;
 }
 
 .desktop-margin {
- margin-top: 45px;
+  margin-top: 45px;
 }
