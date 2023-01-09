@@ -97,7 +97,7 @@
 }
 @media screen and (max-width: 500px) {
   .beton-color-palete__wrapper-item-name {
-    font-size: 1.8rem;
+    font-size: 14px;
   }
 }
 .beton-color-palete__wrapper-item.texture {
@@ -153,4 +153,65 @@
   display: flex;
   justify-content: center;
   margin-bottom: 200px;
+}
+
+@media screen and (max-width: 1100px) {
+  .beton-colors-description {
+    flex-direction: column;
+  }
+  .beton-colors-description-text {
+    margin-left: 0;
+  }
+  .main_h1 {
+    margin-left: 0px !important;
+  }
+  .main_h1_single {
+    margin-left: 0px !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .main_h1 {
+    font-size: 26px !important;
+  }
+  .beton-colors-description {
+    margin-top: 40px;
+  }
+  .title-medium {
+    font-size: 22px !important;
+  }
+  .beton-colors-description-text {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .beton-colors-button {
+    font-size: 16px !important;
+  }
+  .beton-colors-button {
+    width: 220px;
+    height: 50px;
+  }
+  .beton-color-palete {
+    margin-top: 60px;
+    margin-right: 30px;
+  }
+  .beton-color-palete__wrapper-item {
+    height: 190px;
+  }
+  .fit-cover-colors {
+    height: 140px;
+  }
+  .beton-colors-title {
+    margin-bottom: 18px;
+  }
+  .beton-colors-margin {
+    margin-bottom: 40px;
+  }
+  .invoices-section {
+    margin-bottom: 20px;
+  }
+  .beton-colors-bench {
+    margin-right: 30px;
+    margin-bottom: 40px;
+  }
 }

@@ -5722,6 +5722,10 @@ html {
   .palete-button {
     height: 70px;
   }
+  .colors-page {
+    margin-top: 110px;
+    margin-left: 30px;
+  }
 }
 
 @media screen and (max-width: 450px) {
