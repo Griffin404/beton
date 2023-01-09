@@ -94,8 +94,8 @@
 }
 
 .beton-panel a {
-  border-bottom: 3px solid black;
-  padding-bottom: 4px;
+  border-bottom: 2px solid black;
+  padding-bottom: 6px;
 }
 
 .beton-panel img {
@@ -120,4 +120,86 @@
   margin-bottom: 26px;
   line-height: 30px;
   text-align: left;
+}
+@media screen and (max-width: 1100px) {
+  .beton-panels-image-row-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .beton-panels-header {
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+  .beton-panels-main_h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .beton-panels-text {
+    font-size: 14px;
+    line-height: 25px;
+    margin-right: 30px;
+  }
+  .beton-panel {
+    margin-right: 30px;
+    margin-bottom: 40px;
+  }
+  .beton-panel a {
+    font-size: 16px;
+  }
+  .beton-product-cards-section-wrapper {
+    margin: 0px -20px 0px -50px !important;
+  }
+  .product-card-container {
+    width: calc(100% / 1 - 4rem) !important;
+    margin: 1rem 2rem 1rem 2rem !important;
+  }
+
+  .product-card-title {
+    font-size: 18px !important;
+  }
+  .product-card-subtitle {
+    font-size: 14px !important;
+  }
+  .product-card-info1 {
+    font-size: 14px !important;
+  }
+  .product-card-info2 {
+    font-size: 21px !important;
+  }
+  .beton-panels-body {
+    flex-direction: column;
+    flex-direction: column-reverse;
+    margin-bottom: 90.5px;
+  }
+  .beton-panels-name-header {
+    font-size: 21px !important;
+    line-height: 30px;
+  }
+  .beton-panels-name {
+    margin-top: 90px;
+    margin-bottom: 20px;
+  }
+  .beton-panel-about-text {
+    font-size: 14px;
+    line-height: 25px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+  .beton-panels-image-row-mobile {
+    display: none;
+  }
+  .beton-panels-description {
+    margin-bottom: 30px;
+  }
+  .beton-panels-image {
+    height: auto;
+    margin-left: -30px;
+    width: 100%;
+  }
+  .beton-panels-image-column {
+    width: 450px;
+    height: auto;
+  }
 }
