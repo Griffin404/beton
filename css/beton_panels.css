@@ -122,7 +122,7 @@
   text-align: left;
 }
 @media screen and (max-width: 1100px) {
-  .beton-panels-image-row-mobile {
+  .beton-panels-image-row-tablet {
     display: none;
   }
 }
