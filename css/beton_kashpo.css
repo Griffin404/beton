@@ -127,8 +127,8 @@
 }
 
 .beton-kashpo a {
-  border-bottom: 3px solid black;
-  padding-bottom: 4px;
+  border-bottom: 2px solid black;
+  padding-bottom: 6px;
 }
 
 .beton-kashpo img {
@@ -153,4 +153,75 @@
   margin-bottom: 26px;
   line-height: 30px;
   text-align: left;
+}
+
+@media screen and (max-width: 1100px) {
+  .beton-kashpo-image-row-tablet {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .beton-kashpo-header {
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+
+  .main_h1_single {
+    margin-left: 0px !important;
+  }
+  .main_h1 {
+    margin-left: 0px !important;
+  }
+
+  .beton-kashpo-text {
+    font-size: 14px;
+    line-height: 25px;
+    margin-right: 30px;
+  }
+
+  .beton-kashpo-palete {
+    margin-top: 0px !important;
+  }
+  .beton-kashpo {
+    margin-right: 30px;
+    margin-bottom: 40px;
+  }
+
+  /* /////// */
+  .beton-kashpo-body {
+    flex-direction: column;
+    flex-direction: column-reverse;
+    margin-bottom: 90.5px;
+  }
+  .beton-kashpo-description {
+    margin-bottom: 30px;
+  }
+  .beton-kashpo-image {
+    height: auto;
+    margin-left: -30px;
+    width: 100%;
+  }
+  .beton-kashpo-image-column {
+    width: 450px;
+    height: auto;
+  }
+  .beton-kashpo-name-header {
+    font-size: 21px !important;
+    line-height: 30px;
+  }
+  .beton-kashpo-name {
+    margin-top: 90px;
+    margin-bottom: 20px;
+  }
+  .beton-kashpo-about-text {
+    font-size: 14px;
+    line-height: 25px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+
+  .beton-kashpo-image-row-mobile {
+    display: none;
+  }
 }

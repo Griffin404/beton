@@ -95,4 +95,16 @@
     width: calc(100% / 1 - 4rem) !important;
     margin: 1rem 2rem 1rem 2rem !important;
   }
+  .product-card-title {
+    font-size: 18px !important;
+  }
+  .product-card-subtitle {
+    font-size: 14px !important;
+  }
+  .product-card-info1 {
+    font-size: 14px !important;
+  }
+  .product-card-info2 {
+    font-size: 21px !important;
+  }
 }
