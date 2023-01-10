@@ -137,3 +137,80 @@
   line-height: 30px;
   text-align: left;
 }
+
+@media screen and (max-width: 1100px) {
+  .beton-benches-image-row-tablet {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .beton-benches-header {
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+
+  .main_h1_single {
+    margin-left: 0px !important;
+  }
+  .main_h1 {
+    margin-left: 0px !important;
+  }
+
+  .beton-benches-text {
+    font-size: 14px;
+    line-height: 25px;
+    margin-right: 30px;
+  }
+
+  .beton-benches-palete {
+    margin-top: 0px !important;
+  }
+  .beton-benches {
+    margin-right: 30px;
+    margin-bottom: 40px;
+  }
+
+  .beton-benches-body {
+    flex-direction: column;
+    flex-direction: column-reverse;
+    margin-bottom: 90.5px;
+  }
+  .beton-benches-description {
+    margin-bottom: 30px;
+  }
+  .beton-benches-image {
+    height: auto;
+    margin-left: -30px;
+    width: 100%;
+  }
+  .beton-benches-image-column {
+    width: 450px;
+    height: auto;
+  }
+  .beton-benches-main-image-wrapper {
+    height: auto;
+    margin-left: -30px;
+  }
+  .beton-benches-main-image {
+    width: 450px;
+  }
+  .beton-benches-name-header {
+    font-size: 21px !important;
+    line-height: 30px;
+  }
+  .beton-benches-name {
+    margin-top: 90px;
+    margin-bottom: 20px;
+  }
+  .beton-benches-about-text {
+    font-size: 14px;
+    line-height: 25px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+
+  .beton-benches-image-row-mobile {
+    display: none;
+  }
+}
