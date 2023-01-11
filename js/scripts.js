@@ -87,6 +87,15 @@ window.onload = function () {
     $(this).toggleClass("active");
     $(this).siblings(".hidden-products").slideToggle();
   });
+  $(".open-hidden-product-card-popup-palete").click(function () {
+    if ($(this).hasClass("active")) {
+      $(this).text("все цвета");
+    } else {
+      $(this).text("скрыть");
+    }
+    $(this).toggleClass("active");
+    $(this).siblings(".hidden-product-card-popup-palete").slideToggle();
+  });
 
   $(".colors__wrapper-color").click(function () {
     $(".colors__wrapper-color.active").removeClass("active");

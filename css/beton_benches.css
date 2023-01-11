@@ -137,6 +137,17 @@
   line-height: 30px;
   text-align: left;
 }
+.button-beton_benches {
+  display: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 30px;
+  text-align: center;
+}
+
+.beton-benches-image-row-mobile {
+  display: flex;
+}
 
 @media screen and (max-width: 1100px) {
   .beton-benches-image-row-tablet {
@@ -212,5 +223,12 @@
 
   .beton-benches-image-row-mobile {
     display: none;
+  }
+  .button-beton_benches {
+    display: flex;
+  }
+  .button-beton_benches--center {
+    margin: 0 auto;
+    margin-top: 10px;
   }
 }
