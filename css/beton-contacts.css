@@ -8,12 +8,17 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
   text-align: left;
-  width: 284px;
+
   height: 60px;
   border-width: 0px;
+  padding: 0 40px;
+}
+
+.contacts-map-header button.active {
+  padding: 0 50px;
 }
 
 .contacts-map-header {
@@ -36,6 +41,7 @@
 
 .section-w-cart__adress-info-box span {
   font-size: 18px;
+  margin-bottom: 2px;
   font-weight: 500;
 }
 
@@ -68,7 +74,13 @@
   width: 200px;
   height: 46px;
 }
+.dillers-info-item {
+  line-height: 30px;
+}
 
+.h1_fix {
+  line-height: 55px;
+}
 .contact-page-location-map {
   max-width: 1500px;
   height: 600px;
@@ -106,6 +118,14 @@
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 20px;
+  line-height: 40px;
+}
+.fix-number {
+  margin-top: -40px;
+}
+
+.fix-number-3 {
+  margin-top: -8px;
 }
 
 .criteria-item-text {

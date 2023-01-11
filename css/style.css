@@ -3523,7 +3523,7 @@ textarea.black::placeholder {
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
-  padding: 50px;
+  padding: 30px 50px 50px 50px;
   background: #fafafa;
   margin: 50px;
 }
@@ -3536,7 +3536,7 @@ textarea.black::placeholder {
   }
 }
 .section-w-cart__adress-info-box {
-  margin-bottom: 4rem;
+  margin-bottom: 50px;
   font-size: 18px;
   font-weight: 400;
 }
@@ -5871,6 +5871,13 @@ html {
 
   .footer-catalog-menu a {
     font-size: 14px;
+    height: 33px;
+  }
+  .footer-call-text {
+    margin-left: 0px !important;
+  }
+  .footer-geo-margin {
+    margin-bottom: 2px;
   }
   .footer-body-socials-body a img {
     width: 20px;

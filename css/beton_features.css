@@ -83,12 +83,12 @@
     line-height: 25px;
   }
   .beton-features-header {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
   .beton-features-image {
     max-width: 90%;
     height: auto;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
   .beton-features-name-header {
     font-size: 22px;
@@ -97,7 +97,7 @@
     margin-bottom: 20px;
   }
   .beton-features-body {
-    margin-bottom: 20px;
+    margin-bottom: 80px;
   }
   .beton-features-description {
     margin-bottom: 20px;
