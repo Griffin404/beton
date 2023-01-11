@@ -15,13 +15,12 @@
     <link rel="stylesheet" href="./css/beton_features.css" />
     <link rel="stylesheet" href="./css/beton_panels.css" />
     <link rel="stylesheet" href="./css/product_card.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/product_card_popup.css" />
-    <link rel="stylesheet" href="./css/beton-colors.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
     />
-    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <div id="container">
@@ -131,12 +130,10 @@
               <a>каталог продукции</a>
             </div>
           </div>
-          <div class="model-link" data-popup="product-card">
-            СКАЧАТЬ 3D МОДЕЛЬ
-          </div>
+
           <div class="beton-product-cards-section-wrapper">
             <div class="product-card-container">
-              <button class="product-card-button">
+              <div class="model-link" data-popup="product-card">
                 <div class="product-card">
                   <div class="product-card-title">Без отверстий</div>
                   <div class="product-card-subtitle">панели из фибробетона</div>
@@ -154,44 +151,48 @@
                 </div>
 
                 <div class="product-card-popup"></div>
-              </button>
+              </div>
             </div>
 
             <div class="product-card-container">
-              <div class="product-card">
-                <div class="product-card-title">С отверстиями</div>
-                <div class="product-card-subtitle">панели из фибробетона</div>
-                <div class="product-card-image-wrapper">
-                  <div class="product-card-image">
-                    <img
-                      src="./img/beton-panels/beton-panel-card.svg"
-                      alt=""
-                      class="beton-panels-fit-cover"
-                    />
+              <div class="model-link" data-popup="product-card">
+                <div class="product-card">
+                  <div class="product-card-title">С отверстиями</div>
+                  <div class="product-card-subtitle">панели из фибробетона</div>
+                  <div class="product-card-image-wrapper">
+                    <div class="product-card-image">
+                      <img
+                        src="./img/beton-panels/beton-panel-card.svg"
+                        alt=""
+                        class="beton-panels-fit-cover"
+                      />
+                    </div>
                   </div>
+                  <div class="product-card-info1">Толщина 12-20мм</div>
+                  <div class="product-card-info2">от 110 * руб/м²</div>
                 </div>
-                <div class="product-card-info1">Толщина 12-20мм</div>
-                <div class="product-card-info2">от 110 * руб/м²</div>
+                <div class="product-card-popup"></div>
               </div>
-              <div class="product-card-popup"></div>
             </div>
             <div class="product-card-container">
-              <div class="product-card">
-                <div class="product-card-title">Под кляймер</div>
-                <div class="product-card-subtitle">панели из фибробетона</div>
-                <div class="product-card-image-wrapper">
-                  <div class="product-card-image">
-                    <img
-                      src="./img/beton-panels/beton-panel-card.svg"
-                      alt=""
-                      class="beton-panels-fit-cover"
-                    />
+              <div class="model-link" data-popup="product-card">
+                <div class="product-card">
+                  <div class="product-card-title">Под кляймер</div>
+                  <div class="product-card-subtitle">панели из фибробетона</div>
+                  <div class="product-card-image-wrapper">
+                    <div class="product-card-image">
+                      <img
+                        src="./img/beton-panels/beton-panel-card.svg"
+                        alt=""
+                        class="beton-panels-fit-cover"
+                      />
+                    </div>
                   </div>
+                  <div class="product-card-info1">толщина от 20 мм</div>
+                  <div class="product-card-info2">от 150 * руб/м²</div>
                 </div>
-                <div class="product-card-info1">толщина от 20 мм</div>
-                <div class="product-card-info2">от 150 * руб/м²</div>
+                <div class="product-card-popup"></div>
               </div>
-              <div class="product-card-popup"></div>
             </div>
           </div>
 
@@ -322,7 +323,7 @@
         <div class="footer__botom">
           <div class="container footer__botom_body">
             <p class="copy">
-              © 2023 urban-beton.by
+              © 2022 urban-beton.by
               <span>- малые архитектурные формы и панели из фибробетона</span>
             </p>
             <div class="footer__botom-links">
@@ -624,10 +625,9 @@
       </div>
       <!-- PRDODUCT -->
       <div class="popup product-card__popup product-card-popup">
-        <div class="product-card__popup__wrapper">
+        <div class="popup__wrapper product-card__popup__wrapper">
           <div class="product-card-popup__container-main">
-            <div class="popup__close"></div>
-            <!-- <div class="popup__close"></div> -->
+            <div class="popup__close product-card-popup__close"></div>
             <div class="product-card-popup__wrapper-main">
               <div class="product-card-popup__wrapper-mainInfo">
                 <div class="product-card-popup__mainInfo">
@@ -727,25 +727,221 @@
                   </div>
                 </div>
               </div>
-              <div class="product-card-popup__palete-image-wrapper">
-                <div class="product-card-popup__palete-image">
-                  <!-- Добавить картинку  -->
-                  <!-- <img
-                  src="./img/beton-features/beton-1.png"
-                  alt=""
-                  class="beton-benches-fit-cover"
-                /> -->
+              <div class="product-card-popup-palete">
+                <div class="product-card-popup__info-title">Цвета</div>
+                <div class="product-card-popup-palete__wrapper">
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-1.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-2.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-3.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-4.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-5.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-6.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-7.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-8.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-9.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-10.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-11.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-12.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-13.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-14.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-15.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-16.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-17.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-18.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-19.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-20.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="product-card-popup__additional-info-wrapper">
               <div class="product-card-popup__additional-info">
-                <div>1340 * руб/шт</div>
-                <div>* без НДС</div>
+                <div class="product-card-popup__additional-info-cost">
+                  1340 * руб/шт
+                </div>
+                <div class="product-card-popup__additional-info-taxes">
+                  * без НДС
+                </div>
               </div>
-              <div class="product-card-popup__additional-info-wrapper">
-                <div>поделиться ссылкой</div>
-                <div>получить консультацию</div>
+              <div class="product-card-popup__additional-info">
+                <div class="product-card-popup__additional-info-share-wrapper">
+                  <div class="product-card-popup__additional-info-share-item">
+                    <img
+                      class="socials-img"
+                      src="./img/icons/telegram-icon-black.svg"
+                    />
+                    <div class="product-card-popup__additional-info-share">
+                      поделиться ссылкой
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="product-card-popup__additional-info-consultation-wrapper"
+                >
+                  <div class="product-card-popup__additional-info-consultation">
+                    получить консультацию
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -753,13 +949,28 @@
       </div>
       <script>
         function forcedOriginalScale(containerId) {
-          var App = document.getElementById(containerId); //получаем div по его id
-          App.style.zoom = 1 / devicePixelRatio; //устанавливаем масштаб в зависимости от pixel-ratio
+          var App = document.getElementById(containerId);
+          console.log($(window).width());
+          console.log(devicePixelRatio);
+          if ($(window).width() > 700 && $(window).width() < 1000) {
+            App.style.zoom = 1 / devicePixelRatio;
+          } else if ($(window).width() > 1000 && $(window).width() < 1300) {
+            App.style.zoom =
+              1 / (devicePixelRatio > 1.4 ? 1.4 : devicePixelRatio);
+          } else if ($(window).width() > 1300 && $(window).width() < 1600) {
+            App.style.zoom =
+              1 / (devicePixelRatio > 1.4 ? 1.24 : devicePixelRatio);
+          } else if ($(window).width() > 1600 && $(window).width() < 2100) {
+            App.style.zoom =
+              1 / (devicePixelRatio > 1.4 ? 1.1 : devicePixelRatio);
+          } else if ($(window).width() > 2100 && devicePixelRatio > 1.4) {
+            App.style.zoom =
+              1 / (devicePixelRatio > 1.4 ? 0.6 : devicePixelRatio);
+          } else if ($(window).width() > 2100 && devicePixelRatio < 1.4) {
+            App.style.zoom = 1 / 0.5;
+          }
         }
-        console.log(window.devicePixelRatio);
         document.addEventListener(
-          //когда DOM загрузился
-
           "DOMContentLoaded",
 
           function () {

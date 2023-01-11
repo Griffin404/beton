@@ -1241,7 +1241,7 @@ textarea.black::placeholder {
   right: 0;
   z-index: 9999;
   background: rgba(0, 0, 0, 0.9);
-  padding: 80px 60px;
+  padding: 80px 145px;
   overflow-y: auto;
 }
 .popup__wrapper {

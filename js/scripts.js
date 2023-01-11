@@ -42,9 +42,9 @@ function checkInnerWidth(width) {
   }
 }
 
-$(window).on('load', (function () {
-  $('.preloader').fadeOut('slow');
-}))
+$(window).on("load", function () {
+  $(".preloader").fadeOut("slow");
+});
 
 window.onload = function () {
   function setTransformScale(removeCss) {
@@ -137,6 +137,30 @@ window.onload = function () {
       .find("img")
       .attr("src", image);
     $(this).closest(".custom-select").find(".custom-select__input").val(name);
+  });
+
+  $(".product-card-popup__custom-select__main").click(function (EO) {
+    $(this).toggleClass("open");
+  });
+
+  $(".product-card-popup__custom-select__select-item").click(function (EO) {
+    const name = $(this).find(".product-card-popup__name").text();
+    $(this)
+      .closest(".product-card-popup__custom-select")
+      .find(".product-card-popup__custom-select__main")
+      .toggleClass("open");
+    $(this)
+      .closest(".product-card-popup__custom-select")
+      .find(".product-card-popup__custom-select__main")
+      .find(".product-card-popup__name")
+      .text(name);
+    $(this)
+      .closest(".product-card-popup__custom-select")
+      .find(".product-card-popup__custom-select__main");
+    $(this)
+      .closest(".product-card-popup__custom-select")
+      .find(".product-card-popup__custom-select__input")
+      .val(name);
   });
 
   $("[data-anchor]").click(function (EO) {
@@ -530,68 +554,91 @@ window.onload = function () {
   };
   var sticky = new StickyElement($(".sticky-element"));
 
+  $(".panels-selector").hover(
+    function () {
+      $(".panels-icon").addClass("display-none");
+      $(".panels-button").addClass("display-block");
+    },
+    function () {
+      $(".panels-icon").removeClass("display-none");
+      $(".panels-button").removeClass("display-block");
+    }
+  );
 
-  $('.panels-selector').hover(function () {
-    $('.panels-icon').addClass("display-none");
-    $('.panels-button').addClass("display-block");
-  }, function () {
-    $('.panels-icon').removeClass("display-none")
-    $('.panels-button').removeClass("display-block");
-  });
+  $(".kashpo-selector").hover(
+    function () {
+      $(".kashpo-icon").addClass("display-none");
+      $(".kashpo-button").addClass("display-block");
+    },
+    function () {
+      $(".kashpo-icon").removeClass("display-none");
+      $(".kashpo-button").removeClass("display-block");
+    }
+  );
 
-  $('.kashpo-selector').hover(function () {
-    $('.kashpo-icon').addClass("display-none");
-    $('.kashpo-button').addClass("display-block");
-  }, function () {
-    $('.kashpo-icon').removeClass("display-none")
-    $('.kashpo-button').removeClass("display-block");
-  });
+  $(".bench-selector").hover(
+    function () {
+      $(".bench-icon").addClass("display-none");
+      $(".bench-button").addClass("display-block");
+    },
+    function () {
+      $(".bench-icon").removeClass("display-none");
+      $(".bench-button").removeClass("display-block");
+    }
+  );
 
-  $('.bench-selector').hover(function () {
-    $('.bench-icon').addClass("display-none");
-    $('.bench-button').addClass("display-block");
-  }, function () {
-    $('.bench-icon').removeClass("display-none")
-    $('.bench-button').removeClass("display-block");
-  });
+  $(".plates-selector").hover(
+    function () {
+      $(".plates-icon").addClass("display-none");
+      $(".plates-button").addClass("display-block");
+    },
+    function () {
+      $(".plates-icon").removeClass("display-none");
+      $(".plates-button").removeClass("display-block");
+    }
+  );
 
-  $('.plates-selector').hover(function () {
-    $('.plates-icon').addClass("display-none");
-    $('.plates-button').addClass("display-block");
-  }, function () {
-    $('.plates-icon').removeClass("display-none")
-    $('.plates-button').removeClass("display-block");
-  });
+  $(".sculptures-selector").hover(
+    function () {
+      $(".sculptures-icon").addClass("display-none");
+      $(".sculptures-button").addClass("display-block");
+    },
+    function () {
+      $(".sculptures-icon").removeClass("display-none");
+      $(".sculptures-button").removeClass("display-block");
+    }
+  );
 
-  $('.sculptures-selector').hover(function () {
-    $('.sculptures-icon').addClass("display-none");
-    $('.sculptures-button').addClass("display-block");
-  }, function () {
-    $('.sculptures-icon').removeClass("display-none")
-    $('.sculptures-button').removeClass("display-block");
-  });
+  $(".bollardes-selector").hover(
+    function () {
+      $(".bollardes-icon").addClass("display-none");
+      $(".bollardes-button").addClass("display-block");
+    },
+    function () {
+      $(".bollardes-icon").removeClass("display-none");
+      $(".bollardes-button").removeClass("display-block");
+    }
+  );
 
-  $('.bollardes-selector').hover(function () {
-    $('.bollardes-icon').addClass("display-none");
-    $('.bollardes-button').addClass("display-block");
-  }, function () {
-    $('.bollardes-icon').removeClass("display-none")
-    $('.bollardes-button').removeClass("display-block");
-  });
+  $(".lamps-selector").hover(
+    function () {
+      $(".lamps-icon").addClass("display-none");
+      $(".lamps-button").addClass("display-block");
+    },
+    function () {
+      $(".lamps-icon").removeClass("display-none");
+      $(".lamps-button").removeClass("display-block");
+    }
+  );
 
-  $('.lamps-selector').hover(function () {
-    $('.lamps-icon').addClass("display-none");
-    $('.lamps-button').addClass("display-block");
-  }, function () {
-    $('.lamps-icon').removeClass("display-none")
-    $('.lamps-button').removeClass("display-block");
-  });
-
-  $('.bonfire-selector').hover(function () {
-    $('.bonfire-icon').addClass("display-none");
-    $('.bonfire-button').addClass("display-block");
-  }, function () {
-    $('.bonfire-icon').removeClass("display-none")
-    $('.bonfire-button').removeClass("display-block");
-  });
+  $(".bonfire-selector").hover(
+    function () {
+      $(".bonfire-icon").addClass("display-none");
+      $(".bonfire-button").addClass("display-block");
+    },
+    function () {
+      $(".bonfire-icon").removeClass("display-none");
+      $(".bonfire-button").removeClass("display-block");
+    }
+  );
 };

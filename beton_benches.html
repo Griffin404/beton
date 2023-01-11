@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./css/product_card.css" />
     <link rel="stylesheet" href="./css/beton_kashpo.css" />
     <link rel="stylesheet" href="./css/beton_benches.css" />
+    <link rel="stylesheet" href="./css/product_card_popup.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
@@ -233,24 +234,28 @@
               </div>
               <div class="beton-product-cards-section-wrapper">
                 <div class="product-card-container">
-                  <div class="product-card">
-                    <div class="product-card-title">SE-101</div>
-                    <div class="product-card-subtitle">скамейка из бетона</div>
-                    <div class="product-card-image-wrapper">
-                      <div class="product-card-image">
-                        <img
-                          src="./img/beton-panels/beton-panel-card.svg"
-                          alt=""
-                          class="beton-benches-fit-cover"
-                        />
+                  <div class="model-link" data-popup="product-card">
+                    <div class="product-card">
+                      <div class="product-card-title">SE-101</div>
+                      <div class="product-card-subtitle">
+                        скамейка из бетона
                       </div>
+                      <div class="product-card-image-wrapper">
+                        <div class="product-card-image">
+                          <img
+                            src="./img/beton-panels/beton-panel-card.svg"
+                            alt=""
+                            class="beton-benches-fit-cover"
+                          />
+                        </div>
+                      </div>
+                      <div class="product-card-info1">
+                        размер: L1600-2400 / B500 / Н440 мм
+                      </div>
+                      <div class="product-card-info2">940 - 1340 * руб/шт</div>
                     </div>
-                    <div class="product-card-info1">
-                      размер: L1600-2400 / B500 / Н440 мм
-                    </div>
-                    <div class="product-card-info2">940 - 1340 * руб/шт</div>
+                    <div class="product-card-popup"></div>
                   </div>
-                  <div class="product-card-popup"></div>
                 </div>
                 <div class="product-card-container">
                   <div class="product-card">
@@ -907,6 +912,339 @@
       </footer>
       <div class="preloader">
         <img src="img/main/preloader.svg" />
+      </div>
+
+      <div class="product-card-popup popup">
+        <div class="product-card__popup__wrapper">
+          <div class="product-card-popup__container-main">
+            <div class="popup__close product-card-popup__close"></div>
+            <div class="product-card-popup__wrapper-main">
+              <div class="product-card-popup__wrapper-mainInfo">
+                <div class="product-card-popup__mainInfo">
+                  <div class="product-card-popup__wrapper-title">
+                    <div class="product-card-popup__title">
+                      скамейка из бетона
+                    </div>
+                    <div class="product-card-popup__sub-title">SEW-201</div>
+                  </div>
+                  <div class="product-card-popup__wrapper-form">
+                    <div class="product-card-popup__form-title">Размер</div>
+                    <div class="product-card-popup__custom-select">
+                      <div class="product-card-popup__custom-select__main">
+                        <div class="product-card-popup__name">
+                          L1600 / B500 / Н470 мм
+                        </div>
+                      </div>
+                      <div
+                        class="product-card-popup__custom-select__select custom-scroll"
+                      >
+                        <div
+                          class="product-card-popup__custom-select__select-item"
+                        >
+                          <div class="product-card-popup__name">
+                            500 / 500 / Н710 мм
+                          </div>
+                        </div>
+                        <div
+                          class="product-card-popup__custom-select__select-item"
+                        >
+                          <div class="product-card-popup__name">
+                            500 / 500 / Н710 мм
+                          </div>
+                        </div>
+                        <div
+                          class="product-card-popup__custom-select__select-item"
+                        >
+                          <div class="product-card-popup__name">
+                            1000 / 1000/ Н1000 мм
+                          </div>
+                        </div>
+                        <div
+                          class="product-card-popup__custom-select__select-item"
+                        >
+                          <div class="product-card-popup__name">
+                            650 / 650 / Н380 мм
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="product-card-popup__info-title">Вес</div>
+                  <div class="product-card-popup__info-subtitle">135 кг</div>
+                </div>
+
+                <div class="product-card-popup__texture-and-image-wrapper">
+                  <div class="product-card-popup__texture-container">
+                    <div class="product-card-popup__texture-text">Фактуры</div>
+                    <div class="product-card-popup__texture-image-wrapper">
+                      <div class="product-card-popup__texture-image-container">
+                        <div class="product-card-popup__texture-image">
+                          <img
+                            src="./img/colors/color-7.png"
+                            alt=""
+                            class="product-card-popup__fit-cover-colors"
+                          />
+                        </div>
+                        <div class="product-card-popup__texture-image-text">
+                          пористая
+                        </div>
+                      </div>
+                      <div class="product-card-popup__texture-image-container">
+                        <div class="product-card-popup__texture-image">
+                          <img
+                            src="./img/colors/color-7.png"
+                            alt=""
+                            class="product-card-popup__fit-cover-colors"
+                          />
+                        </div>
+                        <div class="product-card-popup__texture-image-text">
+                          гладкая
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="product-card-popup__image-wrapper">
+                    <div class="product-card-popup__image">
+                      <!-- Добавить картинку  -->
+                      <!-- <img
+                      src="./img/beton-features/beton-1.png"
+                      alt=""
+                      class="beton-benches-fit-cover"
+                    /> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card-popup-palete">
+                <div class="product-card-popup__info-title">Цвета</div>
+                <div class="product-card-popup-palete__wrapper">
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-1.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-2.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-3.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-4.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-5.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-6.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-7.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-8.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-9.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-10.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-11.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-12.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-13.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-14.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-15.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-16.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-17.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-18.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-19.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                  <div class="product-card-popup-palete__wrapper-item">
+                    <div class="product-card-popup-palete__wrapper-item-image">
+                      <img
+                        src="./img/colors/color-20.png"
+                        alt=""
+                        class="product-card-popup-palete-fit-cover-colors"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card-popup__additional-info-wrapper">
+              <div class="product-card-popup__additional-info-container">
+                <div class="product-card-popup__additional-info-cost">
+                  1340 * руб/шт
+                </div>
+                <div class="product-card-popup__additional-info-taxes">
+                  * без НДС
+                </div>
+              </div>
+              <div class="product-card-popup__additional-info">
+                <button
+                  type="submit"
+                  class="product-card-popup__additional-info-share-wrapper"
+                >
+                  <div class="product-card-popup__additional-info-share-item">
+                    <img
+                      class="socials-img"
+                      src="./img/icons/telegram-icon-black.svg"
+                    />
+                    <div class="product-card-popup__additional-info-share">
+                      поделиться ссылкой
+                    </div>
+                  </div>
+                </button>
+
+                <button
+                  class="product-card-popup__additional-info-consultation-wrapper-btn"
+                >
+                  <div
+                    class="product-card-popup__additional-info-consultation-wrapper"
+                  >
+                    <div
+                      class="product-card-popup__additional-info-consultation"
+                    >
+                      получить консультацию
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <script>
         function forcedOriginalScale(containerId) {
