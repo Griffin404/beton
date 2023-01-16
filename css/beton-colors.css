@@ -102,7 +102,7 @@
   }
 }
 .beton-color-palete__wrapper-item.texture {
-  width: calc(100% / 4 - 4rem);
+  width: calc(100% / 6 - 4rem);
 }
 @media screen and (max-width: 1024px) {
   .beton-color-palete__wrapper-item.texture {
@@ -117,6 +117,31 @@
   }
 }
 .beton-color-palete__wrapper-item.texture
+  .beton-color-palete__wrapper-item-image {
+  aspect-ratio: 42 / 25;
+}
+
+.fit-colors {
+  height: 300px !important;
+}
+.aspect-ratio {
+}
+.beton-color-palete__wrapper-item.texture1 {
+  width: calc(100% / 3 - 1rem);
+}
+@media screen and (max-width: 1024px) {
+  .beton-color-palete__wrapper-item.texture1 {
+    width: calc(100% / 3 - 2rem);
+    margin: 1rem;
+  }
+}
+@media screen and (max-width: 780px) {
+  .beton-color-palete__wrapper-item.texture1 {
+    width: calc(100% / 2 - 2rem);
+    margin: 1rem;
+  }
+}
+.beton-color-palete__wrapper-item.texture1
   .beton-color-palete__wrapper-item-image {
   aspect-ratio: 42 / 25;
 }
@@ -175,6 +200,9 @@
   .beton-color-palete__wrapper-item-image {
     margin-bottom: 10px;
   }
+  .beton-colors-obl-text {
+    padding: 10px;
+  }
   .main_h1 {
     font-size: 26px !important;
   }
@@ -195,6 +223,9 @@
   .beton-colors-button {
     width: 210px !important;
     height: 50px;
+  }
+  .fit-colors {
+    height: 140px !important;
   }
   .beton-color-palete {
     margin-top: 40px;

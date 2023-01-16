@@ -45,7 +45,7 @@
   width: 100px;
   height: 100px;
   background-color: #000;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
 .term-item-header-number {
@@ -78,6 +78,7 @@
 
 .term-item-group {
   display: flex;
+  margin-left: 5px;
 }
 
 .beton-business-regions-body {
@@ -124,4 +125,129 @@
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
+}
+.term-item-mobile {
+  display: none;
+}
+@media screen and (max-width: 1200px) {
+  .business-header-body {
+    flex-direction: column;
+  }
+  .business-section-text-clients {
+    margin-left: 0;
+  }
+  .beton-business-regions-body {
+    flex-wrap: wrap;
+  }
+  .regions-item {
+    width: calc(100% / 1 - 0rem);
+    margin-bottom: 14px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .business-header-body {
+    display: none;
+  }
+  .business-header-body {
+    flex-direction: column;
+  }
+  .beton-business-term {
+    margin-bottom: 90px;
+  }
+  .beton-business-term-text-big {
+    font-size: 26px;
+    margin-left: 30px;
+  }
+  .beton-business-term-header {
+    align-items: baseline;
+    margin-bottom: 40px;
+  }
+  .beton-business-term-body {
+    display: none;
+  }
+  .contacts-map-header {
+    display: flex !important;
+    justify-content: space-between;
+    margin: 0 30px;
+  }
+  .beton-business-term {
+    margin-top: 90px;
+  }
+  .term-item-header {
+    border: none;
+    width: 70px;
+    height: 70px;
+    padding: 8px 0px;
+    margin-bottom: 40px;
+  }
+  .beton-business-term-text {
+    font-size: 14px;
+  }
+  .term-item-header-number {
+    font-size: 25px;
+  }
+  .term-item-header-text {
+    font-size: 16px;
+  }
+  .term-item-mobile {
+    background-color: #f9fafa;
+    margin: 0 80px;
+    padding: 20px 8px;
+    display: block;
+  }
+  .beton-business-regions-text {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .term-item-body-li {
+    width: auto;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    height: 35px;
+  }
+  .term-item-body-li span {
+    font-size: 18px;
+  }
+  .beton-business-regions-text {
+    margin-left: 30px;
+  }
+  .beton-business-regions-body {
+    margin: 40px 0 90px 0;
+  }
+  .regions-item {
+    padding: 35px 30px;
+  }
+  .regions-item-header {
+    font-size: 21px;
+  }
+  .regions-item-li-city {
+    font-size: 16px;
+  }
+  .regions-item-li-time {
+    font-size: 16px;
+  }
+  .business-section-header {
+    font-size: 26px !important;
+  }
+}
+
+.inactive {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+}
+.beton-business-term-header {
+  display: flex !important;
+}
+
+.contacts-map-header {
+  display: none;
+}
+.hide {
+  display: none;
 }

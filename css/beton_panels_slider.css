@@ -9,6 +9,9 @@
   align-items: center;
   justify-content: center;
 }
+/* .beton-panels-slider-dots-body-mobile {
+  display: none
+} */
 
 .beton-panels-slider-header-big {
   font-size: 40px;
@@ -27,6 +30,9 @@
 }
 
 .beton-panels-slider-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -74,6 +80,10 @@
 }
 
 .beton-panels-slider-link {
+  font-size: 16px;
+  line-height: 30px;
+}
+.beton-panels-slider-link {
   display: flex;
   justify-content: flex-end;
 }
@@ -84,10 +94,155 @@
 
 .beton-panels-slider-link img {
   position: absolute;
-  margin: -11px -30px 0 0;
+  margin: 0px -30px 0 0;
 }
 
 .beton-panels-item-wrapper {
   aspect-ratio: 0 / 0;
   margin-bottom: 0;
+}
+.beton-slider__mian-slider-mobile {
+  display: none;
+}
+@media screen and (max-width: 1300px) {
+  .beton-slider__mian-slider-mobile {
+    width: calc(100% + 3rem);
+  }
+}
+.beton-slider__mian-slider-mobile .slick-track,
+.beton-slider__mian-slider-mobile .slick-list {
+  height: 100%;
+}
+.beton-slider__mian-slider-mobile .slick-arrow {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+}
+@media screen and (max-width: 500px) {
+  .beton-slider__mian-slider-mobile .slick-arrow {
+    height: 5.5rem;
+    width: 8rem;
+  }
+}
+.beton-slider__mian-slider-mobile .slick-arrow.prev {
+  right: 0;
+  bottom: 420px;
+}
+.beton-slider__mian-slider-mobile .slick-arrow.prev img {
+  transform: rotate(180deg);
+}
+@media screen and (max-width: 500px) {
+  .beton-slider__mian-slider-mobile .slick-arrow.prev {
+    right: auto;
+    left: 0;
+  }
+}
+.beton-slider__mian-slider-mobile .slick-arrow.next {
+  right: 0;
+  bottom: 160px;
+}
+.mobile-palete {
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  .beton-slider__mian-slider-mobile {
+    display: flex;
+  }
+  .beton-panels-slider-link img {
+    margin: 0px -35px 0 0;
+  }
+  .beton-panels-slider-link {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .beton-panels-slider-header-text {
+    margin-right: 30px;
+  }
+  .color-palete {
+    margin-bottom: 80px;
+  }
+  .color-palete__wrapper-item {
+    height: 225px;
+    margin-bottom: 15px;
+  }
+  .color-palete__wrapper-item-image img {
+    height: 225px;
+  }
+  .beton-slider__mian-slider-mobile .slick-arrow.next {
+    right: auto;
+    left: 8rem;
+  }
+  .beton-slider__mian-slider-mobile {
+    height: 510px !important;
+    margin-left: -11px;
+  }
+  .projects-image-section-numbers-projects {
+    height: 60px !important;
+    margin-top: 450px !important;
+    width: 109vw !important;
+  }
+  .beton-slider__mian-slider-mobile .slick-arrow.next {
+    bottom: 0 !important;
+    margin-left: 50% !important;
+  }
+  .beton-slider__mian-slider-mobile .slick-arrow.prev {
+    bottom: 0 !important;
+    left: -40% !important;
+    margin-left: 50% !important;
+  }
+  .beton-panels-slider-dots-body {
+    display: none;
+  }
+  .beton-panels-slider {
+    display: none;
+  }
+  .projects-image-section-numbers-projects {
+    background-color: white;
+    color: black;
+    height: 61px !important;
+  }
+  .beton-panels-slider-text {
+    margin-top: 0;
+  }
+  .beton-panels-slider-dots-item {
+    margin: 0 auto 40px auto;
+  }
+  .beton-panels-slider-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  .beton-panels-slider-text img {
+    width: 300px;
+    height: 270px;
+  }
+  .beton-panels-slider-link {
+    margin: 35px 60px 0 0;
+  }
+  .beton-panels-slider-body {
+    margin-bottom: 90px;
+  }
+  .beton-panels-slider-header-big {
+    font-size: 26px;
+  }
+  .beton-panels-slider-header {
+    text-align: left;
+    margin-left: 30px;
+    line-height: 30px;
+  }
+  .beton-panels-slider-header-text {
+    line-height: 25px;
+    font-size: 14px;
+  }
+  .mobile-palete {
+    display: flex !important;
+  }
+  .business-form-body {
+    display: none;
+  }
+  .beton-panels-item {
+    width: calc(100% / 1 - 0rem);
+  }
 }

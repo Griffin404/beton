@@ -111,7 +111,15 @@ window.onload = function () {
     $(this).toggleClass("active");
     $(".header__menu").fadeToggle("fast");
     $(".header__menu").removeClass("header-sticky-content");
+    $(".header__menu").toggleClass("header-flex");
+    console.log($('.header-flex').length)
+    if ($('.header-flex').length == 1) {
+      $("#header-icon").attr("src", "./img/icons/popup-cross.svg");
+    } else {
+      $("#header-icon").attr("src", "./img/icons/header-burger.svg");
+    }
     $("body, html").toggleClass("noskroll");
+
   });
 
   $(".header__menu-item.parrent").click(function (EO) {
@@ -299,6 +307,20 @@ window.onload = function () {
     nextArrow: `<div class="next"><img src="./img/icons/slider-white-arrow-right.svg"></div>`,
   });
 
+  $(".beton-slider__mian-slider-mobile").slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+
+    fade: true,
+    swipe: false,
+    draggable: false,
+    centerMode: false,
+    prevArrow: `<div class="prev"><img src="./img/slider-arrow-black.svg"></div>`,
+    nextArrow: `<div class="next"><img src="./img/slider-arrow-black.svg"></div>`,
+  });
+
+
   $(".projects-slider__mian-slider-1").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -324,6 +346,8 @@ window.onload = function () {
     focusOnSelect: true,
     asNavFor: ".beton-panels-slider",
   });
+
+
 
   $(".projects-slider__nav-slider").slick({
     slidesToShow: 5,
@@ -383,6 +407,7 @@ window.onload = function () {
     let popup = $(this).data("popup");
     $("." + popup + "-popup").fadeIn();
     $("body,html").addClass("noscroll");
+    console.log('sad')
   });
 
   $(".popup__close, .popup_btn.close_popup").click(function () {
@@ -437,10 +462,6 @@ window.onload = function () {
     $(".download-features-button").removeClass("active").addClass("inactive");
     $(this).removeClass("inactive").addClass("active");
   });
-  $(document).on("click", ".map-point-sm", function () {
-    var show = $(this).data("show");
-    $(show).removeClass("hide").siblings().addClass("hide");
-  });
 
   $(".contact-features-button").click(function () {
     $(".contact-features-button").removeClass("active").addClass("inactive");
@@ -449,6 +470,11 @@ window.onload = function () {
   $(document).on("click", ".map-point-sm", function () {
     var show = $(this).data("show");
     $(show).removeClass("hide").siblings().addClass("hide");
+  });
+
+  $(".term-item-header-button").click(function () {
+    $(".term-item-header-button").removeClass("active").addClass("inactive");
+    $(this).removeClass("inactive").addClass("active");
   });
 
   $(document).on("click", ".beton-panels-slider-dots-item", function () {

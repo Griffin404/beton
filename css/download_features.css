@@ -22,7 +22,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
   text-align: left;
   width: 284px;
@@ -44,7 +44,7 @@
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid;
+  border-top: 1px solid #707070;
   padding: 0;
   width: 100%;
 }
@@ -83,12 +83,14 @@
   margin-left: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .download-features-pdf-button-title {
+  margin-bottom: 5px;
   font-size: 21px;
   font-weight: 500;
+  line-height: 30px;
 }
 
 .download-features-pdf-button-subtitle {
@@ -108,6 +110,7 @@
   }
   .download-features-pdf-button-title {
     font-size: 17px;
+    line-height: 25px;
   }
   .download-features-pdf-button-subtitle {
     font-size: 14px;
