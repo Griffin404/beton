@@ -27,8 +27,8 @@
   width: 21px;
   height: 21px;
   position: absolute;
-  top: 175px;
-  right: 165px;
+  top: 100px !important;
+  right: 165px !important;
   z-index: 50;
   background: url(../img/icons/popup-cross.svg) center no-repeat;
   cursor: pointer;
@@ -550,6 +550,9 @@
 }
 
 @media screen and (max-width: 500px) {
+  .product-card-popup__close {
+    right: 36px !important;
+  }
   .product-card-popup-palete {
     margin-bottom: 4rem;
   }
