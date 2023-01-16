@@ -235,6 +235,7 @@
                           class="color-palete__wrapper-item-image-icon panels-icon"
                         >
                           <img
+                            id="panels"
                             src="./img/main-palete-icons/panels.svg"
                             alt=""
                           />
@@ -262,6 +263,7 @@
                           class="color-palete__wrapper-item-image-icon kashpo-icon"
                         >
                           <img
+                            id="kashpo"
                             src="./img/main-palete-icons/kashpo.svg"
                             alt=""
                           />
@@ -288,7 +290,11 @@
                         <div
                           class="color-palete__wrapper-item-image-icon bench-icon"
                         >
-                          <img src="./img/main-palete-icons/bench.svg" alt="" />
+                          <img
+                            id="bench"
+                            src="./img/main-palete-icons/bench.svg"
+                            alt=""
+                          />
                           <div class="color-palete__wrapper-item-text">
                             скамейки
                           </div>
@@ -313,6 +319,7 @@
                           class="color-palete__wrapper-item-image-icon plates-icon plates-icon"
                         >
                           <img
+                            id="plates"
                             src="./img/main-palete-icons/plates.svg"
                             alt=""
                           />
@@ -341,6 +348,7 @@
                           class="color-palete__wrapper-item-image-icon sculptures-icon"
                         >
                           <img
+                            id="sculptures"
                             src="./img/main-palete-icons/sculptures.svg"
                             alt=""
                           />
@@ -369,6 +377,7 @@
                           class="color-palete__wrapper-item-image-icon bollardes-icon"
                         >
                           <img
+                            id="bollardes"
                             src="./img/main-palete-icons/bollardes.svg"
                             alt=""
                           />
@@ -395,7 +404,11 @@
                         <div
                           class="color-palete__wrapper-item-image-icon lamps-icon"
                         >
-                          <img src="./img/main-palete-icons/lamps.svg" alt="" />
+                          <img
+                            id="lamps"
+                            src="./img/main-palete-icons/lamps.svg"
+                            alt=""
+                          />
                           <div class="color-palete__wrapper-item-text">
                             уличные <br />
                             светильники
@@ -421,6 +434,7 @@
                           class="color-palete__wrapper-item-image-icon bonfire-icon"
                         >
                           <img
+                            id="bonfire"
                             src="./img/main-palete-icons/bonfire.svg"
                             alt=""
                           />
@@ -587,6 +601,41 @@
                 1 / (devicePixelRatio > 1.4 ? 0.6 : devicePixelRatio);
             } else if ($(window).width() > 2100 && devicePixelRatio < 1.4) {
               App.style.zoom = 1 / 0.5;
+            }
+
+            if ($(window).width() < 450) {
+              $("#panels").attr(
+                "src",
+                "./img/main-palete-icons-mobile/panels.svg"
+              );
+              $("#kashpo").attr(
+                "src",
+                "./img/main-palete-icons-mobile/kashpo.svg"
+              );
+              $("#bench").attr(
+                "src",
+                "./img/main-palete-icons-mobile/bench.svg"
+              );
+              $("#plates").attr(
+                "src",
+                "./img/main-palete-icons-mobile/plates.svg"
+              );
+              $("#sculptire").attr(
+                "src",
+                "./img/main-palete-icons-mobile/sculptire.svg"
+              );
+              $("#bollardes").attr(
+                "src",
+                "./img/main-palete-icons-mobile/bollardes.svg"
+              );
+              $("#lamps").attr(
+                "src",
+                "./img/main-palete-icons-mobile/lamps.svg"
+              );
+              $("#bonfire").attr(
+                "src",
+                "./img/main-palete-icons-mobile/bonfire.svg"
+              );
             }
           }
           document.addEventListener(
