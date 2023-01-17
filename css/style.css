@@ -1331,11 +1331,7 @@ textarea.black::placeholder {
 .footer {
   margin-top: 35px;
 }
-@media screen and (max-width: 780px) {
-  .footer {
-    padding: 4rem 0;
-  }
-}
+
 .footer__top-menu {
   padding: 6rem 0;
   border-bottom: 2px solid #6f6f6f;
@@ -1485,7 +1481,7 @@ textarea.black::placeholder {
 }
 @media screen and (max-width: 780px) {
   .footer__botom {
-    margin-top: 0rem;
+    margin-top: 42px;
   }
 }
 .footer__botom .logo {
@@ -5530,7 +5526,7 @@ html {
     display: none;
   }
   .header_logo_fix {
-    margin-left: 50px;
+    margin: 0 30px;
   }
   .header_top_burger {
     display: block;
@@ -6237,6 +6233,7 @@ html {
     width: calc(100% / 3 - 55px);
   }
   .color-palete__wrapper-item {
+    max-width: 345px;
     margin: 16px;
   }
   .color-palete__wrapper {
@@ -6249,6 +6246,7 @@ html {
   }
   .color-palete__wrapper-item {
     margin: 16px;
+    min-width: 345px;
   }
   .color-palete__wrapper {
     justify-content: center;

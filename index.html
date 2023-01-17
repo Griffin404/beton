@@ -2166,18 +2166,12 @@
 
           window.onresize = function (event) {
             if (
-              document.documentElement.clientWidth > 450 &&
+              document.documentElement.clientWidth > 1100 &&
               document.documentElement.clientWidth < 1300
             ) {
-              let a = $(".main-slider-item-text");
-
-              for (let i = 0; i < a.length; i++) {
-                if (a.height() > 80) {
-                  location.reload();
-                }
-              }
+              $(".projects-slider__mian-slider-mobile").slick("refresh");
+              $(".projects-slider__nav-slider-mobile").slick("refresh");
             }
-            //
           };
         </script>
       </main>
