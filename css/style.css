@@ -6123,6 +6123,16 @@ html {
   }
 }
 @media screen and (max-width: 450px) {
+  .projects-slider__mian-slider-mobile {
+    margin-left: -30px;
+    width: 110%;
+  }
+  .fix-slider-down-mobile {
+    width: 110%;
+  }
+  .projects-slider__mian-slider-mobile .slick-arrow.next {
+    right: 10%;
+  }
   .beton-products {
     flex-direction: column;
     margin-right: 30px;
