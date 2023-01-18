@@ -4906,7 +4906,7 @@ textarea.black::placeholder {
   .projects-image-section-numbers-projects {
     height: 60px !important;
     margin-top: 260px !important;
-    width: 102vw !important;
+    width: 100% !important;
   }
   .projects-slider__mian-slider-mobile .slick-arrow.next {
     margin-left: 50% !important;
@@ -6300,6 +6300,9 @@ html {
   }
   .projects-slider__mian-slider-mobile .slick-arrow.next {
     right: 10%;
+  }
+  .projects-slider__mian-slider-mobile .slick-arrow.prev {
+    left: 10%;
   }
   .beton-products-section-2 {
     margin-top: 30px;
