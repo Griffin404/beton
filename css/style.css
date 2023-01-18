@@ -2618,7 +2618,6 @@ textarea.black::placeholder {
 }
 @media screen and (max-width: 500px) {
   .projects-slider__mian-slider-mobile .slick-arrow {
-    height: 5.5rem;
     width: 8rem;
   }
 }
@@ -6297,7 +6296,9 @@ html {
   .contact-section {
     height: 910px !important;
   }
-
+  ..projects-slider__mian-slider-mobile .slick-arrow.next {
+    right: 10%;
+  }
   .beton-products-section-2 {
     margin-top: 30px;
   }
