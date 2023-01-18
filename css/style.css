@@ -1479,11 +1479,7 @@ textarea.black::placeholder {
   margin-top: 42px;
   height: 100px;
 }
-@media screen and (max-width: 780px) {
-  .footer__botom {
-    margin-top: 42px;
-  }
-}
+
 .footer__botom .logo {
   margin-right: 9rem;
   flex-shrink: 0;
@@ -6005,6 +6001,7 @@ html {
   }
   .header-flex {
     display: flex !important;
+    overflow: hidden;
   }
 }
 .down-olb {
