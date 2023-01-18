@@ -67,12 +67,27 @@
   .beton-features-header {
     flex-direction: column;
   }
+
+  .beton-features-description {
+    margin-right: 30px;
+    height: fit-content;
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 800px) {
   .beton-features-body {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    margin-bottom: 90px;
+  }
+  .beton-features-image {
+    display: contents;
   }
 }
 
 @media screen and (max-width: 450px) {
+  .beton-features-body {
+    flex-direction: column-reverse;
+  }
   .beton-features-main_h1 {
     font-size: 26px;
     margin-bottom: 25px;

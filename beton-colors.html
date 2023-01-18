@@ -210,7 +210,10 @@
                 поверхности. Защитное покрытие, в каждом отдельном случае,
                 согласовывается перед запуском в работу.
               </div>
-              <div class="button button--black beton-colors-button">
+              <div
+                class="button button--black beton-colors-button"
+                data-popup="price"
+              >
                 заказать образцы
               </div>
             </div>
@@ -432,7 +435,10 @@
                 наиболее полное представление об особенностях заказываемых
                 изделий.
               </div>
-              <div class="button button--black beton-colors-button">
+              <div
+                class="button button--black beton-colors-button"
+                data-popup="price"
+              >
                 заказать образцы
               </div>
             </div>
@@ -742,6 +748,200 @@
           </div>
         </div>
       </footer>
+      <div class="popup price-popup">
+        <div class="popup__wrapper">
+          <div class="popup__content large">
+            <div class="popup__close"></div>
+            <div class="popup__title title--center">Заказать образцы</div>
+            <div class="popup__sub-title">
+              Отставьте Ваши контакты и наш менеджер свяжется с Вами.
+            </div>
+            <form
+              method="post"
+              action=""
+              class="popup__form contact-section__form ajax_form"
+            >
+              <div class="col-100 input-popup">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Ваше имя"
+                  class="black input-popup-form"
+                />
+              </div>
+              <div class="col-100 input-popup">
+                <input
+                  type="text"
+                  name="phone"
+                  placeholder="Ваш телефон"
+                  class="black input-popup-form"
+                  required=""
+                />
+              </div>
+              <div class="col-100 input-popup">
+                <input
+                  type="text"
+                  name="adress"
+                  placeholder="Адрес доставки"
+                  class="black input-popup-form"
+                />
+              </div>
+              <div class="col-100 custom-select multiple input-popup">
+                <input
+                  type="text"
+                  name="examples"
+                  class="custom-select__input"
+                />
+                <div class="custom-select__main">
+                  <div class="name">Выберите образцы</div>
+                </div>
+                <div class="custom-select__select custom-scroll">
+                  <div class="custom-select__select-item selected">
+                    <div class="color">
+                      <img src="./img/colors/color-1.png" alt="Белый" />
+                    </div>
+                    <div class="name">Белый</div>
+                  </div>
+                  <div class="custom-select__select-item selected">
+                    <div class="color">
+                      <img src="./img/colors/color-2.png" alt="Пепел" />
+                    </div>
+                    <div class="name">Пепел</div>
+                  </div>
+                  <div class="custom-select__select-item selected">
+                    <div class="color">
+                      <img src="./img/colors/color-3.png" alt="Кость" />
+                    </div>
+                    <div class="name">Кость</div>
+                  </div>
+                  <div class="custom-select__select-item">
+                    <div class="color">
+                      <img src="./img/colors/color-4.png" alt="Камень" />
+                    </div>
+                    <div class="name">Камень</div>
+                  </div>
+                  <div class="custom-select__select-item">
+                    <div class="color">
+                      <img src="./img/colors/color-5.png" alt="Серый" />
+                    </div>
+                    <div class="name">Серый</div>
+                  </div>
+                  <div class="custom-select__select-item">
+                    <div class="color">
+                      <img src="./img/colors/color-6.png" alt="Цинк" />
+                    </div>
+                    <div class="name">Цинк</div>
+                  </div>
+                  <div class="custom-select__select-item">
+                    <div class="color">
+                      <img src="./img/colors/color-7.png" alt="Графит" />
+                    </div>
+                    <div class="name">Графит</div>
+                  </div>
+                  <div class="custom-select__select-item selected">
+                    <div class="color">
+                      <img src="./img/colors/color-8.png" alt="Чёрный" />
+                    </div>
+                    <div class="name">Чёрный</div>
+                  </div>
+                  <div class="custom-select__select-item">
+                    <div class="color">
+                      <img src="./img/colors/color-20.png" alt="Голубой" />
+                    </div>
+                    <div class="name">Голубой</div>
+                  </div>
+                  <div class="custom-select__select-item">
+                    <div class="color">
+                      <img src="./img/colors/color-9.png" alt="Малахит" />
+                    </div>
+                    <div class="name">Малахит</div>
+                  </div>
+                  <div class="custom-select__select-item">
+                    <div class="color">
+                      <img src="./img/colors/color-10.png" alt="Бирюзовый" />
+                    </div>
+                    <div class="name">Бирюзовый</div>
+                  </div>
+                  <div class="custom-select__select-item">
+                    <div class="color">
+                      <img src="./img/colors/color-11.png" alt="Аквамарин" />
+                    </div>
+                    <div class="name">Аквамарин</div>
+                  </div>
+                  <div class="custom-select__select-item">
+                    <div class="color">
+                      <img src="./img/colors/color-12.png" alt="Оливковый" />
+                    </div>
+                    <div class="name">Оливковый</div>
+                  </div>
+                  <div class="custom-select__select-item">
+                    <div class="color">
+                      <img src="./img/colors/color-13.png" alt="Мятный" />
+                    </div>
+                    <div class="name">Мятный</div>
+                  </div>
+                  <div class="custom-select__select-item">
+                    <div class="color">
+                      <img src="./img/colors/color-14.png" alt="Пшеничный" />
+                    </div>
+                    <div class="name">Пшеничный</div>
+                  </div>
+                  <div class="custom-select__select-item">
+                    <div class="color">
+                      <img src="./img/colors/color-15.png" alt="Розовый" />
+                    </div>
+                    <div class="name">Розовый</div>
+                  </div>
+                  <div class="custom-select__select-item">
+                    <div class="color">
+                      <img src="./img/colors/color-16.png" alt="Песочный" />
+                    </div>
+                    <div class="name">Песочный</div>
+                  </div>
+                  <div class="custom-select__select-item">
+                    <div class="color">
+                      <img src="./img/colors/color-17.png" alt="Оранжевый" />
+                    </div>
+                    <div class="name">Оранжевый</div>
+                  </div>
+                  <div class="custom-select__select-item selected">
+                    <div class="color">
+                      <img src="./img/colors/color-18.png" alt="Терракот" />
+                    </div>
+                    <div class="name">Терракот</div>
+                  </div>
+                  <div class="custom-select__select-item">
+                    <div class="color">
+                      <img src="./img/colors/color-19.png" alt="Бронза" />
+                    </div>
+                    <div class="name">Бронза</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="example-price">
+                <div class="example-price__size">
+                  Стоимость образца 150x150x20
+                </div>
+                <div class="example-price__price">25 р</div>
+              </div>
+
+              <button
+                type="submit"
+                class="button button--center button--black main-button"
+              >
+                Отправить
+              </button>
+
+              <input
+                type="hidden"
+                name="af_action"
+                value="eedf6021a37ed7ff3eb778521f410e85"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
       <div class="preloader">
         <img src="img/main/preloader.svg" />
       </div>
