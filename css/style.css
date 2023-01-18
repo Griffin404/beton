@@ -4832,6 +4832,9 @@ textarea.black::placeholder {
   .project-body {
     margin-right: 0;
   }
+  .fix-margin-right-30 {
+    margin-right: 30px;
+  }
 }
 @media screen and (max-width: 950px) {
   .image-section-rectangle {
@@ -4975,7 +4978,7 @@ textarea.black::placeholder {
   }
 
   .main-section__slider .slick-arrow.prev {
-    margin: -55px 0 89px 30px;
+    margin: -55px 0 75px 30px;
   }
   .main-section__slider .slick-arrow.next {
     margin: -55px 0 75px 90px;
@@ -5564,9 +5567,6 @@ html {
 }
 
 @media screen and (max-width: 1300px) {
-  .main-section__slider {
-    height: 60rem;
-  }
   .projects .projects-slider__mian-slider {
     display: none;
   }
@@ -6123,6 +6123,10 @@ html {
   }
 }
 @media screen and (max-width: 450px) {
+  .beton-products {
+    flex-direction: column;
+    margin-right: 30px;
+  }
   .instagram .main_h1 {
     margin-left: 30px;
   }
@@ -6142,10 +6146,15 @@ html {
     padding: 30px 70px 0 30px;
     margin: 0 -30px;
   }
+  .container .branches .color-palete {
+    margin-left: -28px;
+    width: 112%;
+  }
 }
 .main-link-middle {
   display: none;
 }
+
 @media screen and (min-width: 650px) and (max-width: 1400px) {
   .beton-products-section-2-images div {
     margin-left: 30px;
@@ -6157,6 +6166,9 @@ html {
 @media screen and (min-width: 450px) and (max-width: 1350px) {
   .benefits-section-medium-text {
     margin: 3px 30px 10px 0;
+  }
+  .main-section__slider {
+    height: 60rem;
   }
   .beton-benefits-section-1-text-1 {
     flex-direction: column;
@@ -6275,9 +6287,7 @@ html {
   .contact-section {
     height: 910px !important;
   }
-  .beton-products {
-    flex-direction: column;
-  }
+
   .beton-products-section-2 {
     margin-top: 30px;
   }
