@@ -5032,6 +5032,7 @@ textarea.black::placeholder {
 
   .beton-benefits {
     margin: 0;
+    flex-direction: column-reverse;
   }
 
   .beton-benefits-section-2 div img {
