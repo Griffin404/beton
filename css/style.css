@@ -2648,7 +2648,6 @@ textarea.black::placeholder {
   height: 100%;
 }
 .projects-slider__mian-slider-1 .slick-arrow {
-  background: #000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -4763,10 +4762,12 @@ textarea.black::placeholder {
   background-color: #f35877;
   color: #fff;
 }
-@media screen and (max-width: 1100px) {
+
+@media screen and (max-width: 1300px) {
   .project-body {
     flex-direction: column !important;
     margin-bottom: 40px !important;
+    margin-right: 3rem;
   }
   .projects-slider__mian-slider-1 {
     margin-left: 0;
@@ -4831,7 +4832,18 @@ textarea.black::placeholder {
     margin: 0 0 75px 170px;
   }
 }
-
+@media screen and (min-width: 450px) and (max-width: 1100px) {
+  .project-body {
+    flex-direction: column !important;
+    margin-bottom: 40px !important;
+    margin-right: -6rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .project-body {
+    margin-right: 0;
+  }
+}
 @media screen and (max-width: 950px) {
   .image-section-rectangle {
     margin: 510px 0px 0 580px;
@@ -5993,8 +6005,7 @@ html {
   .beton-products-image img {
     width: 100%;
   }
-  .project-body {
-    padding-right: 30px;
+  .project-text {
     margin-right: 30px;
   }
   .main-button {
