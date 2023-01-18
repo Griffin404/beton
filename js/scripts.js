@@ -293,6 +293,7 @@ window.onload = function () {
     prevArrow: `<div class="prev"><img src="./img/icons/slider-white-arrow-right.svg"></div>`,
     nextArrow: `<div class="next"><img src="./img/icons/slider-white-arrow-right.svg"></div>`,
   });
+
   $(".projects-slider__mian-slider-mobile").slick({
     infinite: true,
     slidesToShow: 1,

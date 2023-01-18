@@ -5732,6 +5732,9 @@ html {
 }
 
 @media screen and (max-width: 450px) {
+  .projects-slider__mian-slider-1 {
+    margin: 0 -6rem 0 -3rem;
+  }
   .popup__title {
     font-size: 21px !important;
   }
@@ -6216,8 +6219,16 @@ html {
     flex-direction: column;
     align-items: center;
   }
+  .projects-slider__mian-slider-1 {
+    margin-left: -6rem;
+  }
   .contact-section {
     height: 800px;
+  }
+  .color-palete__wrapper-item {
+    min-width: 345px;
+    max-width: 345px;
+    margin: 16px;
   }
 }
 @media screen and (min-width: 900px) and (max-width: 1100px) {
@@ -6239,13 +6250,6 @@ html {
   }
 }
 @media screen and (min-width: 700px) and (max-width: 900px) {
-  .color-palete__wrapper-item {
-    width: calc(100% / 2 - 139px);
-  }
-  .color-palete__wrapper-item {
-    margin: 16px;
-    min-width: 345px;
-  }
   .color-palete__wrapper {
     justify-content: center;
   }
@@ -6255,9 +6259,7 @@ html {
   .beton-benefits {
     flex-direction: column-reverse;
   }
-  .color-palete__wrapper-item {
-    width: calc(100% / 2 - 35px);
-  }
+
   .color-palete__wrapper-item {
     margin: 16px;
   }
