@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 90px;
+  margin-bottom: 60px;
 }
 
 .download-features-buttons-wrapper {
@@ -95,7 +95,7 @@
 
 .download-features-pdf-button-subtitle {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   text-align: left;
   color: #cacaca;
 }
