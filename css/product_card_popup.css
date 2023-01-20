@@ -284,15 +284,20 @@
   justify-content: center;
 }
 .product-card-popup__image {
-  width: 550px;
+  margin-right: 100px;
+  display: flex;
   height: 500px;
-  background-color: red;
   margin-bottom: 52px;
 }
 .product-card-popup__palete-image {
   width: 270px;
   height: 377px;
   background-color: green;
+}
+
+.beton-benches-fit-cover {
+  width: 100%;
+  height: auto;
 }
 
 .product-card-popup__fit-cover-colors {
@@ -378,6 +383,8 @@
   margin-right: 40px;
 }
 .product-card-popup__additional-info-taxes {
+  margin-right: 30px;
+  min-width: 100px;
   font-size: 20px;
   font-weight: 400;
   text-align: left;
@@ -463,11 +470,16 @@
     justify-content: flex-end;
     margin-top: 22px !important;
   }
+  .product-card-popup__image {
+    margin-right: 40px;
+    margin-left: 100px;
+  }
 }
 @media screen and (max-width: 1100px) {
   .product-card-popup__texture-and-image-wrapper {
     flex-direction: column-reverse;
   }
+
   .product-card-popup__container-main {
     padding: 50px 80px 50px 30px;
   }
@@ -506,7 +518,6 @@
   .product-card-popup__image {
     width: auto;
     height: 300px;
-    background-color: red;
     margin-bottom: 52px;
     margin-left: -30px;
     margin-right: -80px;
@@ -620,5 +631,29 @@
   }
   .product-card-popup-palete {
     margin-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 800px) {
+  .popup {
+    padding: 80px 20px !important;
+  }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1250px) {
+  .product-card-popup__additional-info-cost {
+    min-width: 220px;
+  }
+  .product-card-popup__additional-info-consultation-wrapper {
+    width: 220px;
+  }
+  .product-card-popup__additional-info-consultation {
+    font-size: 15px;
+  }
+  .product-card-popup__additional-info-share-item {
+    width: 240px;
+  }
+  .product-card-popup__additional-info-share {
+    font-size: 15px;
   }
 }

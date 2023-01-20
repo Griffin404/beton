@@ -67,10 +67,7 @@
 
   margin-bottom: 40px;
 }
-.beton-benches-fit-cover {
-  width: 100%;
-  object-fit: cover;
-}
+
 .beton-benches-description {
   display: flex;
   flex-direction: column;
