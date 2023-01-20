@@ -5811,9 +5811,11 @@ html {
     font-size: 14px;
   }
   .download-features-buttons-wrapper {
-    margin-right: 30px;
+    margin-left: -30px;
+    color: black;
   }
   .download-features-pdf-button {
+    color: black;
     width: calc(100% / 1 - 2rem);
     margin-bottom: 40px;
   }
