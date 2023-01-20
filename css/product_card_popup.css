@@ -27,8 +27,8 @@
   width: 21px;
   height: 21px;
   position: absolute;
-  top: 100px !important;
-  right: 165px !important;
+  top: 120px !important;
+  right: 185px !important;
   z-index: 50;
   background: url(../img/icons/popup-cross.svg) center no-repeat;
   cursor: pointer;
@@ -656,4 +656,10 @@
   .product-card-popup__additional-info-share {
     font-size: 15px;
   }
+}
+
+.product-card-popup__custom-select__main.open
+  + .product-card-popup__custom-select__select {
+  margin-left: 0;
+  border: 1px solid #cacaca;
 }
