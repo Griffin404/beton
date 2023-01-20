@@ -5071,6 +5071,7 @@ textarea.black::placeholder {
   .instagram_section__wrapper {
     display: flex;
     flex-wrap: wrap;
+    margin-left: -30px;
   }
   .instagram-fields {
     display: none;
@@ -5122,6 +5123,8 @@ textarea.black::placeholder {
   }
   .footer__botom {
     height: 60px;
+    margin-top: 0;
+    padding-left: 30px;
   }
   .footer__botom_body {
     padding: 22px 0 0 30px;
@@ -6123,6 +6126,9 @@ html {
   .projects-slider__mian-slider-mobile {
     margin-left: -30px;
     width: 110%;
+  }
+  .footer-background {
+    padding-top: 0;
   }
   .fix-slider-down-mobile {
     width: 110%;
