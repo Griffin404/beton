@@ -1388,6 +1388,7 @@ textarea.black::placeholder {
   height: 7.5rem;
   margin-bottom: 4.5rem;
 }
+
 @media screen and (max-width: 780px) {
   .footer__main-section-col-title {
     margin-bottom: 2rem;
@@ -6119,6 +6120,14 @@ html {
 
 .main_h2 {
   font-size: 21px;
+}
+@media screen and (max-width: 450px) {
+  .footer-headers {
+    font-size: 18px;
+  }
+  .footer-contacts {
+    font-size: 18px;
+  }
 }
 
 @media screen and (min-width: 450px) {
