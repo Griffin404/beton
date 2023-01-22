@@ -309,7 +309,7 @@
             </div>
             <div class="beton-panels-slider-dots-body">
               <img src="img/beton-panels-slider/slider-line.svg" alt="" />
-              <div class="beton-panels-slider-dots">
+              <div class="beton-panels-slider-dots" id="slider">
                 <div class="beton-panels-slider-dots-item" id="number-1">1</div>
                 <div class="beton-panels-slider-dots-item" id="number-2">2</div>
                 <div class="beton-panels-slider-dots-item" id="number-3">3</div>
@@ -589,7 +589,7 @@
                     изолятор кронштейна не содержит <br />
                     асбеста
                     <img
-                      src="./img/beton-panels-slider/step6.jpg"
+                      src="./img/beton-panels-slider/step1.jpg"
                       alt=""
                       class=""
                     />
@@ -756,6 +756,24 @@
               App.style.zoom = 1 / 0.5;
             }
           }
+
+          window.onresize = function (event) {
+            if (
+              document.documentElement.clientWidth > 500 &&
+              document.documentElement.clientWidth < 700
+            ) {
+              $(".beton-slider__mian-slider-mobile").slick("refresh");
+              $(".beton-panels-slider").slick("refresh");
+            }
+
+            if (
+              document.documentElement.clientWidth > 1400 &&
+              document.documentElement.clientWidth < 1500
+            ) {
+              $(".beton-panels-slider-dots").slick("refresh");
+            }
+          };
+
           document.addEventListener(
             "DOMContentLoaded",
 

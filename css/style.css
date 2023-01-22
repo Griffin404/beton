@@ -5716,6 +5716,7 @@ html {
   display: block !important;
 }
 .palete-button {
+  height: 60px;
   display: none;
   font-size: 18px;
   margin: 30px 0 0 0px;
