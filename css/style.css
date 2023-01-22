@@ -5737,6 +5737,10 @@ html {
 @media screen and (max-width: 450px) {
   .projects-slider__mian-slider-1 {
     margin: 0 -6rem 0 -3rem;
+    height: 320px;
+  }
+  .project-fit-cover {
+    height: 320px;
   }
   .popup__title {
     font-size: 21px !important;
@@ -5784,22 +5788,22 @@ html {
   }
   .projects-image-section-numbers-projects-l {
     right: auto;
-    margin-top: 500px;
-    height: 100px;
+    margin-top: 580px;
+    height: 60px;
     width: 100%;
     justify-content: center;
   }
 
   .projects-slider__mian-slider-1 .slick-arrow.next {
     right: 5%;
-    bottom: 40px;
+    bottom: 22px;
     width: 100px;
     transform: none;
   }
   .projects-slider__mian-slider-1 .slick-arrow.prev {
     right: auto;
     left: 5%;
-    bottom: 40px;
+    bottom: 22px;
     width: 100px;
     transform: none;
   }
@@ -6001,7 +6005,15 @@ html {
   }
   .project-text {
     margin-right: 30px;
-    line-height: 20px;
+    line-height: 25px;
+  }
+
+  .project-name-footer {
+    font-size: 16px;
+  }
+  .project-about-header {
+    font-size: 18px;
+    line-height: 25px;
   }
   .main-button {
     font-size: 14px;
