@@ -1053,7 +1053,8 @@
           console.log($(window).width());
           console.log(devicePixelRatio);
           if ($(window).width() > 700 && $(window).width() < 1000) {
-            App.style.zoom = 1 / devicePixelRatio;
+            App.style.zoom =
+              devicePixelRatio > 1.4 ? 0.9 : 1 / devicePixelRatio;
           } else if ($(window).width() > 1000 && $(window).width() < 1300) {
             App.style.zoom =
               1 / (devicePixelRatio > 1.4 ? 1.4 : devicePixelRatio);
