@@ -611,7 +611,7 @@ textarea.black {
 }
 input.black::placeholder,
 textarea.black::placeholder {
-  color: #cacaca;
+  color: #9f9f9f;
 }
 
 .section {
@@ -782,7 +782,7 @@ textarea.black::placeholder {
 
 .custom-select {
   width: 100%;
-  background: #fafafa;
+  background: #fff;
   margin-top: 4rem;
   position: relative;
 }
@@ -1277,7 +1277,7 @@ textarea.black::placeholder {
   width: 100%;
   max-width: 36rem;
   text-align: center;
-  margin: 0 auto 1.5rem;
+  margin: 0 auto 1rem;
 }
 .popup__sub-title {
   color: #adacac;
@@ -1300,7 +1300,7 @@ textarea.black::placeholder {
 
 .price-popup .popup__content {
   max-width: 660px;
-  padding: 40px;
+  padding: 50px 40px 50px 40px;
 }
 
 .price-popup__container {
@@ -1575,12 +1575,14 @@ textarea.black::placeholder {
     display: none !important;
   }
   .main-section__slider {
-    margin-top: 110px;
+    margin-top: 90px;
     height: 60rem;
     width: calc(100% - -42rem);
   }
 }
-
+.main-obl {
+  opacity: 0.3 !important;
+}
 .main-section__slider-item {
   width: 100%;
   height: 100%;
@@ -5017,7 +5019,7 @@ textarea.black::placeholder {
     width: 200px;
   }
   .beton-products-section-2-text {
-    margin-top: 30px;
+    margin-top: 30px !important;
   }
 
   .beton-benefits {
@@ -5077,14 +5079,13 @@ textarea.black::placeholder {
   .instagram-fields {
     display: none;
   }
-  .instagram-name {
-    margin-left: 30px;
-  }
+
   .instagram-body {
     margin-bottom: 40px;
   }
   .contact-body {
     padding-top: 0px !important;
+    padding-left: 0px !important;
     flex-direction: column;
   }
   .contact-section {
@@ -5142,6 +5143,8 @@ textarea.black::placeholder {
   }
   .upload-file {
     height: 70px;
+    font-size: 14px !important;
+    font-weight: 400 !important;
   }
   .footer-body-socials {
     background-color: #f9fafa;
@@ -5309,8 +5312,12 @@ textarea.black::placeholder {
 .history {
   margin: 80px 0 20px 0;
   display: flex;
+  white-space: nowrap;
 }
-
+.white-mobile-footer {
+  margin-top: 0 !important;
+  background-color: #fff;
+}
 .history-prev {
   font-size: 16px;
   font-weight: 400;
@@ -5815,7 +5822,6 @@ html {
   }
   .download-features-button {
     font-size: 14px;
-    color: #000;
   }
   .download-features-buttons-wrapper {
     margin-left: -30px;
@@ -6039,6 +6045,7 @@ html {
 
 .popup__title {
   font-size: 30px;
+  font-weight: 700;
 }
 
 .popup__sub-title {
@@ -6068,7 +6075,7 @@ html {
   position: relative;
   height: 55px;
   padding: 0;
-  color: #cacaca;
+  color: #9f9f9f;
   font-weight: 400;
 }
 .custom-select__main .selected-item {
@@ -6148,6 +6155,12 @@ html {
   }
 }
 @media screen and (max-width: 450px) {
+  .download-features-pdf-button-title {
+    font-size: 16px;
+  }
+  .other-page-fix {
+    margin-top: 25px !important;
+  }
   .projects-slider__mian-slider-mobile {
     margin-left: -30px;
     width: 110%;
@@ -6165,9 +6178,7 @@ html {
     flex-direction: column;
     margin-right: 30px;
   }
-  .instagram .main_h1 {
-    margin-left: 30px;
-  }
+
   .projects-slider__nav-slider-mobile {
     height: 100px;
   }
@@ -6182,7 +6193,7 @@ html {
   }
   .busineess-mobile-item {
     padding: 30px 70px 0 30px;
-    margin: 0 -30px;
+    margin: 0 -30px 15px -30px;
   }
   .container .branches .color-palete {
     margin-left: -28px;
@@ -6302,7 +6313,7 @@ html {
   }
   .busineess-mobile-item {
     padding: 30px 70px 0 30px;
-    margin: 0 -30px;
+    margin: 0 -30px 15px -30px;
   }
   .business-mobile {
     margin-top: 90px;
@@ -6343,11 +6354,17 @@ html {
     flex-direction: column;
     align-items: center;
   }
+  .diller-form-custom-margin {
+    margin-right: 0;
+  }
+  .diller-form-input-background {
+    width: 100%;
+  }
   .projects-slider__mian-slider-1 {
     margin-left: -6rem;
   }
   .contact-section {
-    height: 840px;
+    height: 900px;
   }
   .color-palete__wrapper-item {
     min-width: 345px;
@@ -6402,4 +6419,8 @@ html {
   .project-body-first {
     margin-top: 90px;
   }
+}
+
+.download-features-button.active {
+  color: #fff;
 }

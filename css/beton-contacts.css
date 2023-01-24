@@ -282,3 +282,9 @@
     margin: 40px -30px 90px -30px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .contact-page-criteria-item {
+    padding: 30px 50px;
+  }
+}

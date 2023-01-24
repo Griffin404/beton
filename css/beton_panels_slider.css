@@ -149,6 +149,9 @@
   display: none;
 }
 @media screen and (max-width: 600px) {
+  .container-other-page {
+    padding: 0;
+  }
   .beton-slider__mian-slider-mobile {
     display: flex;
   }
