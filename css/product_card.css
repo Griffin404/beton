@@ -11,6 +11,12 @@
   }
 }
 
+@media screen and (min-width: 1700px) {
+  .product-card-info1 {
+    white-space: nowrap;
+  }
+}
+
 .product-card-container {
   display: flex;
   flex-direction: column;

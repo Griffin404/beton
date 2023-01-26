@@ -150,6 +150,9 @@
   display: none;
 }
 @media screen and (max-width: 600px) {
+  .main-slider-number-2 {
+    padding: 4px 0 0 8px;
+  }
   .container-other-page {
     padding: 0;
   }

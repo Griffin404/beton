@@ -4472,9 +4472,7 @@ textarea.black::placeholder {
 .instagram-fields {
   width: 25px;
   height: 25px;
-}
-
-.instagram-fields {
+  margin-top: -60px;
   background-color: rgba(249, 250, 250, 1);
   width: 250px;
   height: 60px;
@@ -5622,7 +5620,6 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 30px;
   font-size: 16px;
   font-weight: 400;
   color: #cacaca;
@@ -5757,6 +5754,7 @@ html {
   }
   .example-price__size {
     max-width: 200px;
+    line-height: 25px;
     font-size: 16px !important;
   }
   .example-price__price {
@@ -6155,6 +6153,13 @@ html {
   }
 }
 @media screen and (max-width: 450px) {
+  .beton-benches-group {
+    margin-top: 60px;
+  }
+  .beton-benches a {
+    font-size: 16px;
+    font-weight: 600;
+  }
   .footer-social-background-white {
     background-color: #fff;
   }
