@@ -18,6 +18,7 @@
   color: #000000;
   opacity: 1;
   padding: 10;
+  margin-left: 30px;
 }
 .beton-kashpo-group {
 }
@@ -154,10 +155,26 @@
   line-height: 30px;
   text-align: left;
 }
-
-@media screen and (max-width: 1100px) {
+.beton-kashpo-about {
+  margin-right: 30px;
+}
+@media screen and (max-width: 1300px) {
   .beton-kashpo-image-row-tablet {
     display: none;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .beton-kashpo-header {
+    flex-direction: column;
+  }
+  .beton-kashpo-text {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .beton-kashpo-body {
+    flex-direction: column-reverse;
   }
 }
 

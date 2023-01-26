@@ -5,6 +5,12 @@
   margin: -2rem -2rem 200px -2rem;
 }
 
+@media screen and (max-width: 1400px) {
+  .beton-product-cards-section-wrapper {
+    margin-bottom: 90px;
+  }
+}
+
 .product-card-container {
   display: flex;
   flex-direction: column;

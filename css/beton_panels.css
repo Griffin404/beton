@@ -73,6 +73,7 @@
 }
 .beton-panels-text {
   font-size: 18px;
+  margin-left: 30px;
   line-height: 30px;
   font-weight: 300;
 }
@@ -114,6 +115,12 @@
 .beton-panel-about {
   font-size: 18px;
   font-weight: 400;
+  margin-right: 30px;
+}
+.slick-track {
+  flex-wrap: nowrap !important;
+  display: flex !important;
+  width: 100%;
 }
 
 .beton-panel-about-text {
@@ -121,9 +128,24 @@
   line-height: 30px;
   text-align: left;
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1400px) {
+  .beton-panels-header {
+    flex-direction: column;
+  }
+  .beton-panels-text {
+    margin-left: 0;
+  }
+  .beton-panels-body {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 900px) {
   .beton-panels-image-row-tablet {
     display: none;
+  }
+  .main_h1_single {
+    white-space: inherit !important;
   }
 }
 

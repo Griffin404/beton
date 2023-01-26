@@ -746,7 +746,7 @@ textarea.black::placeholder {
   align-items: center;
   justify-content: center;
   height: 100px;
-  font-size: 1.8rem;
+  font-size: 16px;
   cursor: pointer;
   text-align: center;
 }
@@ -1324,7 +1324,7 @@ textarea.black::placeholder {
 
 @media screen and (max-width: 500px) {
   .popup {
-    padding: 80px 20px;
+    padding: 40px 0px;
   }
 }
 
@@ -6155,6 +6155,9 @@ html {
   }
 }
 @media screen and (max-width: 450px) {
+  .footer-social-background-white {
+    background-color: #fff;
+  }
   .download-features-pdf-button-title {
     font-size: 16px;
   }
