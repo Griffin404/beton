@@ -6202,6 +6202,10 @@ html {
     margin-left: -28px;
     width: 112%;
   }
+  .product-card-popup__close {
+    top: 90px !important;
+    right: 35px !important;
+  }
 }
 .main-link-middle {
   display: none;
