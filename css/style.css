@@ -4481,6 +4481,14 @@ textarea.black::placeholder {
   padding: 17px 60px;
   cursor: pointer;
 }
+.opacity-fix-0 {
+  opacity: 0;
+}
+
+.opacity-fix-1 {
+  opacity: 1;
+  transition: opacity 0.5s ease 0.5s;
+}
 
 .diller-form {
   max-width: 600px;

@@ -179,6 +179,9 @@
 }
 
 @media screen and (max-width: 450px) {
+  .beton-kashpo-group {
+    margin-top: 60px;
+  }
   .beton-kashpo-palete__wrapper {
     flex-wrap: nowrap;
     margin-right: 10px;

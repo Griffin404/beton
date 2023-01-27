@@ -85,6 +85,10 @@ window.onload = function () {
       $(this).text("Скрыть");
     }
     $(this).toggleClass("active");
+
+
+
+
     $(this).siblings(".hidden-products").slideToggle();
   });
   $(".open-hidden-product-card-popup-palete").click(function () {
@@ -92,12 +96,19 @@ window.onload = function () {
       $(this).text("все цвета");
     } else {
       $(this).text("скрыть");
+
     }
+    $(".product-card-popup-palete__wrapper-hidden").addClass('opacity-fix-0');
+
+    setTimeout(function () {
+      $(".product-card-popup-palete__wrapper-hidden").toggleClass('opacity-fix-1');
+    }, 10);
     $(this).toggleClass("active");
     $(this).siblings(".hidden-product-card-popup-palete").slideToggle();
   });
 
   $(".colors__wrapper-color").click(function () {
+
     $(".colors__wrapper-color.active").removeClass("active");
     $(this).addClass("active");
   });

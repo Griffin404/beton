@@ -173,6 +173,9 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .beton-panels-main_h1 {
+    margin-bottom: 20px !important;
+  }
   .beton-benches-header {
     flex-direction: column;
     margin-bottom: 60px;
