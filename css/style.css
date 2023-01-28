@@ -2432,6 +2432,7 @@ textarea.black::placeholder {
 .main-slider-second-item {
   font-size: 21px;
   padding-top: 12px;
+  font-weight: 400;
   margin-bottom: 10px;
   color: #cacaca;
 }
@@ -3889,9 +3890,10 @@ textarea.black::placeholder {
 
 .error-page__text {
   text-align: center;
-  font-size: 2.1rem;
+  font-size: 18px;
+  font-weight: 400;
   line-height: 180%;
-  margin-bottom: 8rem;
+  margin-bottom: 40px;
   font-weight: 400;
   margin-right: 30px;
 }
@@ -3919,6 +3921,9 @@ textarea.black::placeholder {
   font-size: 2.4rem;
 }
 @media screen and (max-width: 500px) {
+  .error-page {
+    padding-bottom: 0;
+  }
   .advantages__title {
     font-size: 2.1rem;
     text-align: center;
@@ -4480,6 +4485,11 @@ textarea.black::placeholder {
   justify-content: space-between;
   padding: 17px 60px;
   cursor: pointer;
+}
+
+.instagram-fields:hover {
+  background-color: #fff;
+  border: 2px solid black;
 }
 .opacity-fix-0 {
   opacity: 0;
@@ -5095,7 +5105,7 @@ textarea.black::placeholder {
     flex-direction: column;
   }
   .contact-section {
-    height: 790px;
+    height: auto;
   }
   .footer__botom-links {
     display: none;
@@ -5161,7 +5171,7 @@ textarea.black::placeholder {
 }
 
 .project-text {
-  line-height: 30px;
+  line-height: 25px;
 }
 .margin-left-0 {
   margin-left: 0 !important;
@@ -5345,7 +5355,7 @@ textarea.black::placeholder {
 .fit-header {
   position: absolute;
   left: 570px;
-  top: 280px;
+  top: 265px;
 }
 
 .project-name-header {
@@ -5355,7 +5365,7 @@ textarea.black::placeholder {
 }
 
 .project-name-footer {
-  font-size: 21px;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -5365,7 +5375,7 @@ textarea.black::placeholder {
 }
 
 .project-about-header {
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -5411,7 +5421,7 @@ textarea.black::placeholder {
 }
 
 .project-text {
-  margin-bottom: 85px;
+  margin-bottom: 40px;
 }
 
 .project-about-header {
@@ -5503,10 +5513,20 @@ textarea.black::placeholder {
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 0 11%;
+  /* padding: 0 11%; */
   background-color: #fff;
 }
 
+.header-sticky-content::before {
+  left: -60px;
+  width: 140%;
+  content: "";
+  border-bottom: 1px solid #cacaca;
+  position: absolute;
+  top: 0px;
+  background-color: white;
+  height: 100px;
+}
 html {
   transform: none !important;
 }
@@ -5936,6 +5956,7 @@ html {
   }
   .contact-section {
     margin-top: 90px;
+    padding: 3rem;
   }
   .footer-contacts {
     font-size: 18px;

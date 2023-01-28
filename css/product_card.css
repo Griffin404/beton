@@ -23,7 +23,7 @@
   width: calc(100% / 4 - 4rem);
   height: 470px;
   background-color: #f9fafa;
-  margin: 2rem;
+  margin: 45px 2rem;
 }
 .product-card {
   display: flex;

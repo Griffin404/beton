@@ -123,6 +123,7 @@ window.onload = function () {
     $(".header__menu").fadeToggle("fast");
     $(".header__menu").removeClass("header-sticky-content");
     $(".header__menu").toggleClass("header-flex");
+
     console.log($('.header-flex').length)
     if ($('.header-flex').length == 1) {
       $("#header-icon").attr("src", "./img/icons/popup-cross.svg");
@@ -588,11 +589,13 @@ window.onload = function () {
       if (docTop != 0) {
         if (!fixed) {
           content.addClass("header-sticky-content");
+          content.addClass("container");
           fixed = true;
         }
       } else {
         if (fixed) {
           content.removeClass("header-sticky-content");
+          content.removeClass("container");
           fixed = false;
         }
       }

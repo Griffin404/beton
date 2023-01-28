@@ -5,9 +5,10 @@
 @media screen and (max-width: 1200px) {
   .business-header-body {
     flex-direction: column;
+    display: flex !important;
   }
   .business-section-text-clients {
-    margin-left: 0;
+    margin-left: 0 !important;
   }
   .business-section-text-clients {
     margin-top: 30px;

@@ -230,6 +230,7 @@
   .beton-benches-name-header {
     font-size: 21px !important;
     line-height: 30px;
+    margin-bottom: 0px;
   }
   .beton-benches-name {
     margin-top: 90px;
