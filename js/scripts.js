@@ -602,6 +602,24 @@ window.onload = function () {
     };
     $(window).on("scroll", onScroll);
   };
+
+  var onScrollMobile = function (e) {
+    var doc = $(document);
+
+
+    content = $(".header");
+    var docTop = doc.scrollTop();
+    if (docTop != 0) {
+
+      content.addClass("border-footer-mobile");
+
+    } else {
+
+      content.removeClass("border-footer-mobile");
+
+    }
+  };
+  $(window).on("scroll", onScrollMobile);
   var sticky = new StickyElement($(".sticky-element"));
 
   $(".panels-selector").hover(

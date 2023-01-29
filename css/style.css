@@ -888,7 +888,10 @@ textarea.black::placeholder {
   .header__wrapper {
     height: 50px;
   }
-  .header {
+  /* .header {
+    border-bottom: 1px solid #cacaca;
+  } */
+  .border-footer-mobile {
     border-bottom: 1px solid #cacaca;
   }
 }
@@ -5032,7 +5035,7 @@ textarea.black::placeholder {
   }
   .beton-products-section-2-images div img {
     height: 150px;
-    width: 200px;
+    width: 220px;
   }
   .beton-products-section-2-text {
     margin-top: 30px !important;
@@ -5518,8 +5521,8 @@ textarea.black::placeholder {
 }
 
 .header-sticky-content::before {
-  left: -60px;
-  width: 140%;
+  left: -50%;
+  width: 200%;
   content: "";
   border-bottom: 1px solid #cacaca;
   position: absolute;
@@ -5805,18 +5808,18 @@ html {
   }
   .projects-image-section-number-1 {
     font-weight: 500;
-    font-size: 26px;
+    font-size: 21px;
   }
 
   .projects-image-section-number-d {
     font-weight: 500;
-    font-size: 21px;
+    font-size: 15px;
     padding: 3px 0 0 10px;
   }
 
   .projects-image-section-number-2 {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     padding: 8px 0 0 10px;
   }
   .projects-image-section-numbers-projects-l {
@@ -6007,11 +6010,20 @@ html {
   .color-palete {
     width: 104%;
   }
-
-  .beton-products-image {
-    width: 100%;
+  .business-section-text-clients {
+    margin-bottom: 0;
   }
-
+  .beton-products-section-2-images {
+    width: 120%;
+    margin: 0px -30px 0 -30px;
+  }
+  .beton-products-image {
+    width: 120%;
+    margin: 50px -30px 0 -30px;
+  }
+  .beton-products-section-2-images .fix-margin-right-30 {
+    margin-right: 10px;
+  }
   .header_top_contact-mobile span {
     margin-bottom: 10px;
   }
@@ -6039,6 +6051,17 @@ html {
   .project-text {
     margin-right: 30px;
     line-height: 25px;
+    font-size: 14px;
+  }
+  .project-about {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .project-name {
+    margin-bottom: 30px;
+  }
+  .project-name-header {
+    font-size: 21px;
   }
 
   .project-name-footer {
@@ -6374,6 +6397,12 @@ html {
   }
 }
 @media screen and (min-width: 450px) and (max-width: 650px) {
+  .beton-products-section-2-images {
+    margin-left: 30px;
+  }
+  .beton-products-section-2-text {
+    margin-left: 30px;
+  }
   .contact-section {
     height: 910px !important;
   }
