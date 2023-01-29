@@ -643,6 +643,17 @@ window.onload = function () {
       $(".kashpo-button").removeClass("display-block");
     }
   );
+  $(".beton-panels-item-wrapper").hover(
+    function () {
+      console.log($(this).children('button'))
+      $(this).children('button').addClass("display-block");
+      $(this).addClass("item-obl-slider");
+    },
+    function () {
+      $(this).children('button').removeClass("display-block");
+      $(this).removeClass("item-obl-slider");
+    }
+  );
 
   $(".bench-selector").hover(
     function () {
