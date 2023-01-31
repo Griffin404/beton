@@ -645,7 +645,6 @@ window.onload = function () {
   );
   $(".beton-panels-item-wrapper").hover(
     function () {
-      console.log($(this).children('button'))
       $(this).children('button').addClass("display-block");
       $(this).addClass("item-obl-slider");
     },
