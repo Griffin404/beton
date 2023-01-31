@@ -933,6 +933,7 @@ textarea.black::placeholder {
 @media screen and (max-width: 1078px) {
   .header__menu-wrapper {
     flex-direction: column;
+    margin-top: 20px;
   }
 }
 .header__menu-item {
@@ -1014,8 +1015,8 @@ textarea.black::placeholder {
 }
 @media screen and (max-width: 1078px) {
   .header__menu-item.active .header__menu-item-link::after {
-    transform: rotate(180deg);
-    background: url(../img/icons/menu-arrow-active.svg) center no-repeat;
+    transform: rotate(90deg);
+    background: url(../img/icons/menu-arrow.svg) center no-repeat;
   }
 }
 .header__menu-item.active .dropdown-menu {
@@ -6107,7 +6108,7 @@ html {
 
 .input-popup {
   border: 1px solid #cacaca;
-  height: 55px;
+  min-height: 55px;
   margin-bottom: 20px;
 }
 .popup__form {
@@ -6123,7 +6124,7 @@ html {
   cursor: pointer;
   font-size: 16px;
   position: relative;
-  height: 55px;
+  min-height: 55px;
   padding: 0;
   color: #9f9f9f;
   font-weight: 400;

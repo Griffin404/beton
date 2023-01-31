@@ -147,26 +147,63 @@ window.onload = function () {
     $(this).toggleClass("open");
   });
 
-  $(".custom-select__select-item").click(function (EO) {
-    const name = $(this).find(".name").text();
-    const image = $(this).find(".color").find("img")[0].src;
-    $(this)
-      .closest(".custom-select")
-      .find(".custom-select__main")
-      .toggleClass("open");
-    $(this)
-      .closest(".custom-select")
-      .find(".custom-select__main")
-      .find(".name")
-      .text(name);
-    $(this)
-      .closest(".custom-select")
-      .find(".custom-select__main")
-      .find(".color")
-      .find("img")
-      .attr("src", image);
-    $(this).closest(".custom-select").find(".custom-select__input").val(name);
-  });
+  // $(".custom-select__select-item").click(function (EO) {
+  //   const name = $(this).find(".name").text();
+  //   const image = $(this).find(".color").find("img")[0].src;
+  //   $(this)
+  //     .closest(".custom-select")
+  //     .find(".custom-select__main")
+  //     .toggleClass("open");
+  //   $(this)
+  //     .closest(".custom-select")
+  //     .find(".custom-select__main")
+  //     .find(".name")
+  //     .text(name);
+  //   $(this)
+  //     .closest(".custom-select")
+  //     .find(".custom-select__main")
+  //     .find(".color")
+  //     .find("img")
+  //     .attr("src", image);
+  //   $(this).closest(".custom-select").find(".custom-select__input").val(name);
+  // });
+  const selected = []
+  const selectedNames = []
+
+  $('.custom-select.multiple .custom-select__select-item').click(function (EO) {
+    const name = $(this).find('.name').text()
+    const image = $(this).find('.color').find('img')[0].src
+    const target = $(this).closest('.custom-select').find('.custom-select__main')
+    $(this).addClass('selected')
+    const index = selectedNames.indexOf(name)
+    if (index === -1) {
+      selectedNames.push(name)
+      selected.push(
+        {
+          name,
+          image
+        }
+      )
+    } else {
+      selectedNames.splice(index, 1)
+      selected.splice(index, 1)
+    }
+    $(target).html('')
+
+    if (selected.length) {
+      $(target).html('')
+      selected.forEach(function (el) {
+        $(target).append(`<div class="selected-item">
+          <div class="color"><img src="${el.image}"></div>
+          <div class="name">${el.name}</div>,
+        </div>`);
+      })
+    } else {
+      $(target).html(`<div class="name">Р’С‹Р±РµСЂРёС‚Рµ РѕР±СЂР°Р·С†С‹</div>`)
+    }
+
+    $(this).closest('.custom-select').find('.custom-select__input').val(selectedNames.join(','))
+  })
 
   $(".product-card-popup__custom-select__main").click(function (EO) {
     $(this).toggleClass("open");
@@ -645,12 +682,63 @@ window.onload = function () {
   );
   $(".beton-panels-item-wrapper").hover(
     function () {
+
+      if ($(this).children('img')[0].id == 'fibra') {
+        $("#fibra").attr(
+          "src",
+          "./img/beton-panels-slider/fibra-hover.svg"
+        );
+      }
+      if ($(this).children('img')[0].id == 'relef') {
+        $("#relef").attr(
+          "src",
+          "./img/beton-panels-slider/relef-hover.svg"
+        );
+      }
+      if ($(this).children('img')[0].id == 'perfo') {
+        $("#perfo").attr(
+          "src",
+          "./img/beton-panels-slider/perfo-hover.svg"
+        );
+      }
+      if ($(this).children('img')[0].id == 'isgib') {
+        $("#isgib").attr(
+          "src",
+          "./img/beton-panels-slider/isgib-hover.svg"
+        );
+      }
       $(this).children('button').addClass("display-block");
       $(this).addClass("item-obl-slider");
+
     },
     function () {
+
       $(this).children('button').removeClass("display-block");
       $(this).removeClass("item-obl-slider");
+      if ($(this).children('img')[0].id == 'fibra') {
+        $("#fibra").attr(
+          "src",
+          "./img/beton-panels-slider/fibra.svg"
+        );
+      }
+      if ($(this).children('img')[0].id == 'relef') {
+        $("#relef").attr(
+          "src",
+          "./img/beton-panels-slider/relef.svg"
+        );
+      }
+      if ($(this).children('img')[0].id == 'perfo') {
+        $("#perfo").attr(
+          "src",
+          "./img/beton-panels-slider/perfo.svg"
+        );
+      }
+      if ($(this).children('img')[0].id == 'isgib') {
+        $("#isgib").attr(
+          "src",
+          "./img/beton-panels-slider/isgib.svg"
+        );
+      }
     }
   );
 

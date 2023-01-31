@@ -253,3 +253,17 @@
     margin-bottom: 40px;
   }
 }
+
+.beton-colors-bench-mobile {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .beton-colors-bench-mobile {
+    display: flex;
+    justify-content: center;
+    margin-left: -30px;
+  }
+  .beton-colors-bench {
+    display: none;
+  }
+}
