@@ -992,6 +992,15 @@ textarea.black::placeholder {
   display: none;
 }
 
+@media screen and (max-width: 450px) {
+  .to_top {
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+  }
+}
+
 .to_top img {
   width: 60px;
   position: relative;
