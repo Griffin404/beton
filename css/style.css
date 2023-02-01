@@ -985,7 +985,6 @@ textarea.black::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
-
   position: fixed;
   bottom: 40px;
   right: 40px;
@@ -999,6 +998,28 @@ textarea.black::placeholder {
   top: -1px;
 }
 
+.sub_menu {
+  display: none;
+}
+
+.parrent-small {
+  display: flex;
+  justify-content: space-between;
+}
+
+.parrent-small::after {
+  content: "";
+  display: block;
+  margin-left: 1.4rem;
+  width: 1rem;
+  height: 1rem;
+  background: url(../img/icons/menu-arrow.svg) center no-repeat;
+  transition: 0.3s;
+}
+
+.parrent-small-changed::after {
+  transform: rotate(-180deg);
+}
 .header__menu-item.parrent .header__menu-item-link::after {
   content: "";
   display: block;
@@ -5787,6 +5808,13 @@ html {
 }
 .display-block {
   display: block !important;
+}
+.dropdown-menu-container-small {
+  display: flex;
+  position: sticky;
+  padding-left: 20px;
+  flex-direction: column;
+  background: #fff;
 }
 .palete-button {
   height: 60px;
