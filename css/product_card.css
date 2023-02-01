@@ -94,6 +94,29 @@
   text-align: left;
 }
 
+.popup-calc {
+  height: 55px;
+  width: 55px;
+  background-color: #f9fafa;
+  border: none;
+  font-size: 22px;
+  font-weight: 500;
+  padding-top: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+.calc-price {
+  margin-top: 0 !important;
+}
+.pupuc-calc-number {
+  font-size: 26px;
+  width: 55px;
+  text-align: center;
+  padding-top: 14px;
+}
+.price-calc {
+  display: flex;
+}
 @media screen and (max-width: 1400px) {
   .product-card-container {
     width: calc(100% / 3 - 4rem) !important;

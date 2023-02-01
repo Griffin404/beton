@@ -991,6 +991,9 @@
           </div>
         </div>
       </footer>
+      <div class="to_top">
+        <img src="/img/to-top.svg" />
+      </div>
       <div class="preloader">
         <img src="img/main/preloader.svg" />
       </div>
@@ -1458,6 +1461,7 @@
 
                 <button
                   class="product-card-popup__additional-info-consultation-wrapper-btn"
+                  data-popup="examples"
                 >
                   <div
                     class="product-card-popup__additional-info-consultation-wrapper"
@@ -1465,7 +1469,7 @@
                     <div
                       class="product-card-popup__additional-info-consultation"
                     >
-                      получить консультацию
+                      запросить счет
                     </div>
                   </div>
                 </button>
@@ -1474,7 +1478,84 @@
           </div>
         </div>
       </div>
+
+      <div class="popup examples-popup">
+        <div class="popup__wrapper">
+          <div class="popup__content large">
+            <div class="popup__close"></div>
+            <div class="popup__title title--center">Заказать образцы</div>
+            <div class="popup__sub-title">
+              Отставьте Ваши контакты и наш менеджер свяжется с Вами.
+            </div>
+            <form
+              method="post"
+              action=""
+              class="popup__form contact-section__form ajax_form"
+            >
+              <div class="col-100 input-popup">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Ваше имя"
+                  class="black input-popup-form"
+                />
+              </div>
+              <div class="col-100 input-popup">
+                <input
+                  type="text"
+                  name="phone"
+                  placeholder="Ваш телефон"
+                  class="black input-popup-form"
+                  required=""
+                />
+              </div>
+              <div class="col-100 input-popup">
+                <input
+                  type="text"
+                  name="adress"
+                  placeholder="E-mail"
+                  class="black input-popup-form"
+                />
+              </div>
+
+              <div class="example-price calc-price">
+                <div class="example-price__size"></div>
+                <div class="example-price__price price-calc">
+                  <div class="popup-calc noselect" id="minus">-</div>
+                  <div class="pupuc-calc-number" id="poup-number">1</div>
+                  <div class="popup-calc noselect" id="plus">+</div>
+                </div>
+              </div>
+
+              <button
+                type="submit"
+                class="button button--center button--black main-button"
+              >
+                отправить
+              </button>
+
+              <input
+                type="hidden"
+                name="af_action"
+                value="eedf6021a37ed7ff3eb778521f410e85"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
       <script>
+        let count = 1;
+        document.getElementById("minus").onclick = function () {
+          if (count != 1) {
+            count -= 1;
+            document.getElementById("poup-number").innerHTML = count;
+          }
+        };
+
+        document.getElementById("plus").onclick = function () {
+          count += 1;
+          document.getElementById("poup-number").innerHTML = count;
+        };
         function forcedOriginalScale(containerId) {
           var App = document.getElementById(containerId);
           console.log($(window).width());

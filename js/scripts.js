@@ -209,6 +209,21 @@ window.onload = function () {
     $(this).toggleClass("open");
   });
 
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() != 0) {
+      $(".to_top").fadeIn().css("display", "flex");
+    } else {
+      $(".to_top").fadeOut();
+    }
+  });
+
+  $(".to_top").click(function () {
+    $('body,html').animate({
+      scrollTop: 0
+    }, 800);
+  });
+
   $(".product-card-popup__custom-select__select-item").click(function (EO) {
     const name = $(this).find(".product-card-popup__name").text();
     $(this)

@@ -978,6 +978,27 @@ textarea.black::placeholder {
     align-items: flex-start;
   }
 }
+
+.to_top {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+.to_top img {
+  width: 60px;
+  position: relative;
+  top: -1px;
+}
+
 .header__menu-item.parrent .header__menu-item-link::after {
   content: "";
   display: block;
@@ -1303,6 +1324,21 @@ textarea.black::placeholder {
 }
 
 .price-popup .popup__content {
+  max-width: 660px;
+  padding: 50px 40px 50px 40px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.examples-popup .popup__content {
   max-width: 660px;
   padding: 50px 40px 50px 40px;
 }
