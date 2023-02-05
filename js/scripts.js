@@ -85,12 +85,9 @@ window.onload = function () {
       $(this).text("Скрыть");
     }
     $(this).toggleClass("active");
-
-
-
-
     $(this).siblings(".hidden-products").slideToggle();
   });
+
   $(".open-hidden-product-card-popup-palete").click(function () {
     if ($(this).hasClass("active")) {
       $(this).text("все цвета");
@@ -144,7 +141,6 @@ window.onload = function () {
   });
 
   $(".header__menu-item-link.close").click(function (EO) {
-
     if (checkInnerWidth(1078) && $(".header__menu-item.parrent.active").length == 1) {
       EO.preventDefault();
 
@@ -156,32 +152,10 @@ window.onload = function () {
     }
   });
 
-
-
   $(".custom-select__main").click(function (EO) {
     $(this).toggleClass("open");
   });
 
-  // $(".custom-select__select-item").click(function (EO) {
-  //   const name = $(this).find(".name").text();
-  //   const image = $(this).find(".color").find("img")[0].src;
-  //   $(this)
-  //     .closest(".custom-select")
-  //     .find(".custom-select__main")
-  //     .toggleClass("open");
-  //   $(this)
-  //     .closest(".custom-select")
-  //     .find(".custom-select__main")
-  //     .find(".name")
-  //     .text(name);
-  //   $(this)
-  //     .closest(".custom-select")
-  //     .find(".custom-select__main")
-  //     .find(".color")
-  //     .find("img")
-  //     .attr("src", image);
-  //   $(this).closest(".custom-select").find(".custom-select__input").val(name);
-  // });
   const selected = []
   const selectedNames = []
 
@@ -227,8 +201,6 @@ window.onload = function () {
   $(".parrent-small").click(function (EO) {
     $(".sub_menu").toggleClass("display-block");
     $(".parrent-small").toggleClass("parrent-small-changed");
-
-
   });
 
   $(window).scroll(function () {
@@ -283,7 +255,6 @@ window.onload = function () {
 
   if (!checkInnerWidth(1024)) {
     gsap.registerPlugin(ScrollTrigger);
-
     const animateElements = $(".animate-svg .fade-animation");
     const animateTable = $(".animate-svg .animate-svg__table")[0];
     const colors = $(".main-colors__palette")[0];
@@ -318,21 +289,6 @@ window.onload = function () {
     });
   }
 
-  /*   const width = window.innerWidth - window.innerWidth * 1.1
-    console.log(width) */
-
-  /*   tippy('.colors__wrapper-color', {
-      content(reference) {
-        const name = reference.getAttribute('data-name')
-        return name
-      },
-      followCursor: 'horizontal',
-      arrow: true,
-      arrowType: 'sharp',
-      animation: 'fade',
-      offset: '9800, 50'
-    }) */
-
   /* SLIDERS */
 
   $(".main-section__slider").slick({
@@ -355,10 +311,6 @@ window.onload = function () {
       nextArrow: `<div class="next"><img src="./img/icons/slider-black-arrow-right.svg"></div>`,
     });
   }
-
-  // if ($('.nav-slider-item').length <= 4) {
-  //   $('.projects-slider__nav-slider').addClass('no-scroll')
-  // }
 
   $(".projects-slider__mian-slider").slick({
     infinite: true,
@@ -432,8 +384,6 @@ window.onload = function () {
     focusOnSelect: true,
     asNavFor: ".beton-panels-slider",
   });
-
-
 
   $(".projects-slider__nav-slider").slick({
     slidesToShow: 5,
@@ -516,7 +466,6 @@ window.onload = function () {
     enableAutoReload: true,
     load: function (el) {
       el.src = el.getAttribute("data-lazysrc");
-      // el.srcset = el.getAttribute("data-lazysrc");
       el.onload = function () {
         $(el).addClass("load");
       };
@@ -530,19 +479,6 @@ window.onload = function () {
   pictureObserver.observe();
 
   /* DEV SCRIPTS */
-
-  $(".sitemap__opener").click(function () {
-    $(".sitemap").toggleClass("open");
-    $(this).toggleClass("active");
-  });
-
-  if (location.host.includes("localhost")) {
-    $(".sitemap__link").map(function (index, element) {
-      let link = $(element).attr("href");
-      let re = /\/beton/gi;
-      $(element).attr("href", link.replace(re, ""));
-    });
-  }
 
   $(".download-features-button").click(function () {
     $(".download-features-button").removeClass("active").addClass("inactive");
@@ -678,20 +614,15 @@ window.onload = function () {
 
   var onScrollMobile = function (e) {
     var doc = $(document);
-
-
     content = $(".header");
     var docTop = doc.scrollTop();
     if (docTop != 0) {
-
       content.addClass("border-footer-mobile");
-
     } else {
-
       content.removeClass("border-footer-mobile");
-
     }
   };
+
   $(window).on("scroll", onScrollMobile);
   var sticky = new StickyElement($(".sticky-element"));
 
